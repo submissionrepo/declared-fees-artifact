@@ -87,3 +87,4 @@ python scripts/facts/analyze_avax_response.py results/facts_avax_response.json
 Repository: https://github.com/submissionrepo/declared-fees-artifact
 
 The linked manuscript PDF is included alongside its source. The release contains a ZIP of this repository.
+Original code and documentation are available under the [MIT License](LICENSE). Third-party components retain their own licenses. The data descriptions above identify the public sources and the scope of the included aggregates.
