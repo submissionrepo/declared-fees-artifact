@@ -1,0 +1,15 @@
+{
+ "head": 118423828,
+ "n_blocks": 200,
+ "n_tx": 2841,
+ "header_gasUsed_equals_sum_of_limits": 200,
+ "n_senders_all": 251,
+ "n_senders_with_list": 32,
+ "n_list_txs": 726,
+ "top1_sender_share_of_list_txs": 0.2727272727272727,
+ "top5_sender_share_of_list_txs": 0.6184573002754821,
+ "top10_sender_share_of_list_txs": 0.7451790633608816,
+ "top10_target_share_of_list_txs": 0.987603305785124,
+ "n_targets_with_list": 17,
+ "fetched_utc": "2026-11-01T08:37:16Z"
+}

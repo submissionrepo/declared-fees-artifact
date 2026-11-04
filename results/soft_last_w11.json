@@ -1,0 +1,59 @@
+{
+ "sample": "solana_p08.jsonl.gz",
+ "blocks": 150,
+ "theta=0.25": {
+  "moved_share_of_all": 0.5518,
+  "moved_share_of_successful": 0.2204,
+  "moved_share_of_successful_priority_fees": 0.4912,
+  "used_soft_share_of_successful": 0.0492,
+  "used_soft_share_of_successful_priority_fees": 0.3729,
+  "free": {
+   "threads=4": {
+    "rank_over_firm": 0.9142,
+    "last_over_firm": 0.9192,
+    "rank_wasted": 0.0308,
+    "last_wasted": 0.0215,
+    "firm_blocks_over_half_budget": 16,
+    "firm_blocks_over_budget": 0,
+    "rank_blocks_over_half_budget": 9,
+    "rank_blocks_over_budget": 0,
+    "firm_mean_of_budget": 0.2505
+   },
+   "threads=16": {
+    "rank_over_firm": 0.8368,
+    "last_over_firm": 0.8314,
+    "rank_wasted": 0.0855,
+    "last_wasted": 0.064,
+    "firm_blocks_over_half_budget": 15,
+    "firm_blocks_over_budget": 0,
+    "rank_blocks_over_half_budget": 9,
+    "rank_blocks_over_budget": 0,
+    "firm_mean_of_budget": 0.2171
+   }
+  },
+  "block": {
+   "threads=4": {
+    "rank_over_firm": 0.9071,
+    "last_over_firm": 0.926,
+    "rank_wasted": 0.033,
+    "last_wasted": 0.0387,
+    "firm_blocks_over_half_budget": 17,
+    "firm_blocks_over_budget": 2,
+    "rank_blocks_over_half_budget": 12,
+    "rank_blocks_over_budget": 0,
+    "firm_mean_of_budget": 0.269
+   },
+   "threads=16": {
+    "rank_over_firm": 0.8583,
+    "last_over_firm": 0.8887,
+    "rank_wasted": 0.0857,
+    "last_wasted": 0.0929,
+    "firm_blocks_over_half_budget": 16,
+    "firm_blocks_over_budget": 2,
+    "rank_blocks_over_half_budget": 12,
+    "rank_blocks_over_budget": 0,
+    "firm_mean_of_budget": 0.2536
+   }
+  }
+ }
+}

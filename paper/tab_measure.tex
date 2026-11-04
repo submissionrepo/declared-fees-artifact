@@ -1,0 +1,37 @@
+\begin{table}[t]
+\centering
+\caption{What is declared and what is used. Upper rows: share of declarations not written (Solana), not changed (Sui) or not in the set the node returned (Ethereum lists), with the stricter count for Solana and the range for Sui in parentheses. Solana includes failed transactions and Sui does not. Middle rows: aggregate use over the declared limit. Lower rows: the five accounts with the most declared compute in each block, Samples A and B.}
+\label{tab:measure}
+\scriptsize
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}lll@{}}
+\toprule
+Chain & Declared & Share unused \\
+\midrule
+Solana, Sample A & 453{,}818 writable declarations & 57.1\% (56.3\%) \\
+ & failed; token; route leg & 36.9; 17.8; 2.5\% \\
+Solana, Sample B & 268{,}752 writable declarations & 57.9\% (56.9\%) \\
+ & failed; token; route leg & 41.8; 12.0; 4.1\% \\
+Sui & 5{,}501 mutable declarations & 50.3\% (12.7--53.3\%) \\
+Ethereum lists & 1{,}679 addresses & 26.8\% \\
+ & 7{,}323 storage keys & 32.0\% \\
+\midrule
+Chain & Declared & Use over limit \\
+\midrule
+Solana, Sample A & 46{,}150 compute limits & 0.25 \\
+Solana, Sample B & 34{,}083 compute limits & 0.20 \\
+Monad & 1{,}520 gas limits & 0.71 (estimated need) \\
+Ethereum & 10{,}225 gas limits & 0.42 \\
+\midrule
+\multicolumn{2}{@{}l}{Hot lock time: writers; succeeded, not written} & 32, 39; 20, 21\% \\
+\multicolumn{2}{@{}l}{\quad failed, sender succeeds at times; never} & 35, 18; 12, 21\% \\
+\multicolumn{2}{@{}l}{Senders that never succeed: number; transactions} & 128, 128; 4{,}477, 4{,}491 \\
+\multicolumn{2}{@{}l}{\quad share of declared hot compute} & 24, 23\% \\
+\multicolumn{2}{@{}l}{Non-writers in cost charged, median pair} & 80.0, 68.2\% \\
+\multicolumn{2}{@{}l}{Cost charged over the budget, median pair} & 12.3, 5.4\% \\
+\multicolumn{2}{@{}l}{\quad pairs at half the budget, of 600} & 37, 12 \\
+\multicolumn{2}{@{}l}{Holders' place in the block, median} & 0.53, 0.51 \\
+\multicolumn{2}{@{}l}{Priority fee, writers; never (lamports per CU)} & 0.40, 0.65; 0.17, 0.19 \\
+\bottomrule
+\end{tabular}
+\end{table}

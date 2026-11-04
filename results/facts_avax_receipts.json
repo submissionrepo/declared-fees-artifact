@@ -1,0 +1,15 @@
+{
+ "rpc": "https://api.avax.network/ext/bc/C/rpc",
+ "head": 99114230,
+ "n_blocks": 150,
+ "n_tx": 437,
+ "errors": 0,
+ "receipts_eq_half_limit_rounded_up": 129,
+ "receipts_below_half_limit": 0,
+ "receipts_eq_limit": 46,
+ "ratio_median": 0.6304843765437088,
+ "ratio_p10": 0.5,
+ "first_block_ts": 1793521147,
+ "last_block_ts": 1793303152,
+ "fetched_utc": "2026-11-01T08:25:01Z"
+}

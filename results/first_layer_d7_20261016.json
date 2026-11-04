@@ -1,0 +1,1 @@
+{"a_identity": "pi p t - ((1-rho) p t + s rho p t) = p t [(pi - 1) + rho (1 - s)]", "a_grid": {"cases": 288, "failures": 0}, "b_identity": "p*pi*t + Derivative(K(qhat), qhat)", "b_brier_grid": {"cases": 1476, "failures": 0}}

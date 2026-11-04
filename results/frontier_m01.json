@@ -1,0 +1,2810 @@
+{
+ "sample": "solana_m04.jsonl.gz",
+ "ratios": {
+  "producer_16": 0.0806,
+  "validator_16": 0.1303,
+  "validator_16_writes": 0.2373,
+  "producer_4": 0.2948
+ },
+ "alphas": [
+  0.0,
+  0.005,
+  0.01,
+  0.02,
+  0.05,
+  0.1,
+  0.2,
+  0.35,
+  0.5,
+  0.75,
+  1.0
+ ],
+ "betas": [
+  0.0,
+  0.05,
+  0.1,
+  0.2,
+  0.35,
+  0.5,
+  0.75,
+  1.0
+ ],
+ "time_alphas": [
+  0.0,
+  0.01,
+  0.05,
+  0.1,
+  0.2,
+  0.5,
+  1.0
+ ],
+ "time_betas": [
+  0.0,
+  0.2,
+  1.0
+ ],
+ "lead_m": 3,
+ "lead_k_over_c": 0.3333333333333333,
+ "alt_k_over_c": 3.0,
+ "meta": {
+  "declarations": 294201,
+  "unused": 158566,
+  "successful": 29700
+ },
+ "lead": {
+  "m=1": {
+   "one": [
+    {
+     "lost": 0.0,
+     "unpaid": 1.0,
+     "dropped": 0.0,
+     "soft": 0.0,
+     "reverted_successful": 0.0
+    },
+    {
+     "lost": 0.0022,
+     "unpaid": 0.3834,
+     "dropped": 0.126,
+     "soft": 0.0,
+     "reverted_successful": 0.0057
+    },
+    {
+     "lost": 0.005,
+     "unpaid": 0.3203,
+     "dropped": 0.1608,
+     "soft": 0.0,
+     "reverted_successful": 0.0131
+    },
+    {
+     "lost": 0.0072,
+     "unpaid": 0.2621,
+     "dropped": 0.1866,
+     "soft": 0.0,
+     "reverted_successful": 0.0191
+    },
+    {
+     "lost": 0.0212,
+     "unpaid": 0.1847,
+     "dropped": 0.2335,
+     "soft": 0.0,
+     "reverted_successful": 0.0359
+    },
+    {
+     "lost": 0.0304,
+     "unpaid": 0.1451,
+     "dropped": 0.2569,
+     "soft": 0.0,
+     "reverted_successful": 0.048
+    },
+    {
+     "lost": 0.0486,
+     "unpaid": 0.1071,
+     "dropped": 0.3285,
+     "soft": 0.0,
+     "reverted_successful": 0.0634
+    },
+    {
+     "lost": 0.064,
+     "unpaid": 0.0744,
+     "dropped": 0.3733,
+     "soft": 0.0,
+     "reverted_successful": 0.0852
+    },
+    {
+     "lost": 0.0736,
+     "unpaid": 0.0487,
+     "dropped": 0.4074,
+     "soft": 0.0,
+     "reverted_successful": 0.0972
+    },
+    {
+     "lost": 0.0984,
+     "unpaid": 0.0209,
+     "dropped": 0.4441,
+     "soft": 0.0,
+     "reverted_successful": 0.1218
+    },
+    {
+     "lost": 0.131,
+     "unpaid": 0.0,
+     "dropped": 0.4603,
+     "soft": 0.0,
+     "reverted_successful": 0.1366
+    }
+   ],
+   "two": {
+    "producer_16": [
+     {
+      "lost": 0.0392,
+      "unpaid": 0.0084,
+      "dropped": 0.1876,
+      "soft": 0.3781,
+      "reverted_successful": 0.0937
+     },
+     {
+      "lost": 0.0402,
+      "unpaid": 0.0051,
+      "dropped": 0.2384,
+      "soft": 0.3254,
+      "reverted_successful": 0.0953
+     },
+     {
+      "lost": 0.0414,
+      "unpaid": 0.0045,
+      "dropped": 0.2445,
+      "soft": 0.3194,
+      "reverted_successful": 0.0968
+     },
+     {
+      "lost": 0.0433,
+      "unpaid": 0.0035,
+      "dropped": 0.2714,
+      "soft": 0.2925,
+      "reverted_successful": 0.1004
+     },
+     {
+      "lost": 0.0481,
+      "unpaid": 0.0025,
+      "dropped": 0.2866,
+      "soft": 0.2772,
+      "reverted_successful": 0.1031
+     },
+     {
+      "lost": 0.0504,
+      "unpaid": 0.0018,
+      "dropped": 0.2979,
+      "soft": 0.2659,
+      "reverted_successful": 0.1043
+     },
+     {
+      "lost": 0.0576,
+      "unpaid": 0.0008,
+      "dropped": 0.3071,
+      "soft": 0.2566,
+      "reverted_successful": 0.1075
+     },
+     {
+      "lost": 0.061,
+      "unpaid": 0.0,
+      "dropped": 0.3119,
+      "soft": 0.2514,
+      "reverted_successful": 0.1097
+     }
+    ],
+    "validator_16": [
+     {
+      "lost": 0.0392,
+      "unpaid": 0.0135,
+      "dropped": 0.1876,
+      "soft": 0.3781,
+      "reverted_successful": 0.0937
+     },
+     {
+      "lost": 0.0408,
+      "unpaid": 0.0078,
+      "dropped": 0.2421,
+      "soft": 0.3217,
+      "reverted_successful": 0.0963
+     },
+     {
+      "lost": 0.0427,
+      "unpaid": 0.0066,
+      "dropped": 0.2668,
+      "soft": 0.297,
+      "reverted_successful": 0.0989
+     },
+     {
+      "lost": 0.0467,
+      "unpaid": 0.0051,
+      "dropped": 0.2855,
+      "soft": 0.2783,
+      "reverted_successful": 0.103
+     },
+     {
+      "lost": 0.0514,
+      "unpaid": 0.0036,
+      "dropped": 0.2998,
+      "soft": 0.2639,
+      "reverted_successful": 0.1052
+     },
+     {
+      "lost": 0.0584,
+      "unpaid": 0.0025,
+      "dropped": 0.309,
+      "soft": 0.2546,
+      "reverted_successful": 0.1079
+     },
+     {
+      "lost": 0.0637,
+      "unpaid": 0.0012,
+      "dropped": 0.3157,
+      "soft": 0.2475,
+      "reverted_successful": 0.1116
+     },
+     {
+      "lost": 0.0663,
+      "unpaid": 0.0,
+      "dropped": 0.3598,
+      "soft": 0.2029,
+      "reverted_successful": 0.1165
+     }
+    ],
+    "validator_16_writes": [
+     {
+      "lost": 0.0392,
+      "unpaid": 0.0247,
+      "dropped": 0.1876,
+      "soft": 0.3781,
+      "reverted_successful": 0.0937
+     },
+     {
+      "lost": 0.0425,
+      "unpaid": 0.0131,
+      "dropped": 0.2646,
+      "soft": 0.2993,
+      "reverted_successful": 0.0985
+     },
+     {
+      "lost": 0.0465,
+      "unpaid": 0.0105,
+      "dropped": 0.2839,
+      "soft": 0.2799,
+      "reverted_successful": 0.1028
+     },
+     {
+      "lost": 0.0519,
+      "unpaid": 0.0081,
+      "dropped": 0.3009,
+      "soft": 0.2629,
+      "reverted_successful": 0.1055
+     },
+     {
+      "lost": 0.0612,
+      "unpaid": 0.0057,
+      "dropped": 0.3125,
+      "soft": 0.2508,
+      "reverted_successful": 0.11
+     },
+     {
+      "lost": 0.0652,
+      "unpaid": 0.0039,
+      "dropped": 0.3568,
+      "soft": 0.206,
+      "reverted_successful": 0.113
+     },
+     {
+      "lost": 0.0689,
+      "unpaid": 0.0017,
+      "dropped": 0.3735,
+      "soft": 0.1835,
+      "reverted_successful": 0.12
+     },
+     {
+      "lost": 0.0729,
+      "unpaid": 0.0,
+      "dropped": 0.3927,
+      "soft": 0.1616,
+      "reverted_successful": 0.1237
+     }
+    ],
+    "producer_4": [
+     {
+      "lost": 0.0392,
+      "unpaid": 0.0306,
+      "dropped": 0.1876,
+      "soft": 0.3781,
+      "reverted_successful": 0.0937
+     },
+     {
+      "lost": 0.043,
+      "unpaid": 0.0153,
+      "dropped": 0.2701,
+      "soft": 0.2937,
+      "reverted_successful": 0.0996
+     },
+     {
+      "lost": 0.0482,
+      "unpaid": 0.0127,
+      "dropped": 0.2872,
+      "soft": 0.2766,
+      "reverted_successful": 0.1034
+     },
+     {
+      "lost": 0.0575,
+      "unpaid": 0.0094,
+      "dropped": 0.3063,
+      "soft": 0.2574,
+      "reverted_successful": 0.1074
+     },
+     {
+      "lost": 0.0639,
+      "unpaid": 0.0067,
+      "dropped": 0.3166,
+      "soft": 0.2465,
+      "reverted_successful": 0.1121
+     },
+     {
+      "lost": 0.0675,
+      "unpaid": 0.0044,
+      "dropped": 0.3667,
+      "soft": 0.1958,
+      "reverted_successful": 0.1184
+     },
+     {
+      "lost": 0.072,
+      "unpaid": 0.0018,
+      "dropped": 0.3881,
+      "soft": 0.1673,
+      "reverted_successful": 0.1231
+     },
+     {
+      "lost": 0.0787,
+      "unpaid": 0.0,
+      "dropped": 0.4098,
+      "soft": 0.1424,
+      "reverted_successful": 0.1257
+     }
+    ]
+   }
+  },
+  "m=3": {
+   "one": [
+    {
+     "lost": 0.0,
+     "unpaid": 1.0,
+     "dropped": 0.0,
+     "soft": 0.0,
+     "reverted_successful": 0.0
+    },
+    {
+     "lost": 0.0007,
+     "unpaid": 0.5362,
+     "dropped": 0.075,
+     "soft": 0.0,
+     "reverted_successful": 0.0026
+    },
+    {
+     "lost": 0.0018,
+     "unpaid": 0.4319,
+     "dropped": 0.113,
+     "soft": 0.0,
+     "reverted_successful": 0.0043
+    },
+    {
+     "lost": 0.0031,
+     "unpaid": 0.3483,
+     "dropped": 0.1347,
+     "soft": 0.0,
+     "reverted_successful": 0.0081
+    },
+    {
+     "lost": 0.0065,
+     "unpaid": 0.2669,
+     "dropped": 0.1797,
+     "soft": 0.0,
+     "reverted_successful": 0.0173
+    },
+    {
+     "lost": 0.0144,
+     "unpaid": 0.2012,
+     "dropped": 0.214,
+     "soft": 0.0,
+     "reverted_successful": 0.0271
+    },
+    {
+     "lost": 0.0248,
+     "unpaid": 0.1418,
+     "dropped": 0.2445,
+     "soft": 0.0,
+     "reverted_successful": 0.04
+    },
+    {
+     "lost": 0.0381,
+     "unpaid": 0.1013,
+     "dropped": 0.2927,
+     "soft": 0.0,
+     "reverted_successful": 0.0534
+    },
+    {
+     "lost": 0.0443,
+     "unpaid": 0.0706,
+     "dropped": 0.3173,
+     "soft": 0.0,
+     "reverted_successful": 0.0595
+    },
+    {
+     "lost": 0.0554,
+     "unpaid": 0.0319,
+     "dropped": 0.3456,
+     "soft": 0.0,
+     "reverted_successful": 0.0728
+    },
+    {
+     "lost": 0.063,
+     "unpaid": 0.0,
+     "dropped": 0.3691,
+     "soft": 0.0,
+     "reverted_successful": 0.0832
+    }
+   ],
+   "two": {
+    "producer_16": [
+     {
+      "lost": 0.0125,
+      "unpaid": 0.0223,
+      "dropped": 0.0727,
+      "soft": 0.4709,
+      "reverted_successful": 0.0362
+     },
+     {
+      "lost": 0.0129,
+      "unpaid": 0.0146,
+      "dropped": 0.1306,
+      "soft": 0.4113,
+      "reverted_successful": 0.0375
+     },
+     {
+      "lost": 0.014,
+      "unpaid": 0.0117,
+      "dropped": 0.1595,
+      "soft": 0.3824,
+      "reverted_successful": 0.039
+     },
+     {
+      "lost": 0.0146,
+      "unpaid": 0.009,
+      "dropped": 0.1768,
+      "soft": 0.3651,
+      "reverted_successful": 0.0401
+     },
+     {
+      "lost": 0.0158,
+      "unpaid": 0.0063,
+      "dropped": 0.2018,
+      "soft": 0.3401,
+      "reverted_successful": 0.042
+     },
+     {
+      "lost": 0.0171,
+      "unpaid": 0.0043,
+      "dropped": 0.2117,
+      "soft": 0.3301,
+      "reverted_successful": 0.0445
+     },
+     {
+      "lost": 0.0214,
+      "unpaid": 0.0019,
+      "dropped": 0.223,
+      "soft": 0.3187,
+      "reverted_successful": 0.0474
+     },
+     {
+      "lost": 0.0248,
+      "unpaid": 0.0,
+      "dropped": 0.2349,
+      "soft": 0.3064,
+      "reverted_successful": 0.0497
+     }
+    ],
+    "validator_16": [
+     {
+      "lost": 0.0125,
+      "unpaid": 0.036,
+      "dropped": 0.0727,
+      "soft": 0.4709,
+      "reverted_successful": 0.0362
+     },
+     {
+      "lost": 0.0138,
+      "unpaid": 0.0215,
+      "dropped": 0.1436,
+      "soft": 0.3983,
+      "reverted_successful": 0.0385
+     },
+     {
+      "lost": 0.0145,
+      "unpaid": 0.0171,
+      "dropped": 0.1727,
+      "soft": 0.3692,
+      "reverted_successful": 0.0397
+     },
+     {
+      "lost": 0.0157,
+      "unpaid": 0.0128,
+      "dropped": 0.1869,
+      "soft": 0.355,
+      "reverted_successful": 0.0418
+     },
+     {
+      "lost": 0.0176,
+      "unpaid": 0.0087,
+      "dropped": 0.2155,
+      "soft": 0.3263,
+      "reverted_successful": 0.0453
+     },
+     {
+      "lost": 0.022,
+      "unpaid": 0.006,
+      "dropped": 0.2299,
+      "soft": 0.3116,
+      "reverted_successful": 0.0479
+     },
+     {
+      "lost": 0.0268,
+      "unpaid": 0.0026,
+      "dropped": 0.2401,
+      "soft": 0.301,
+      "reverted_successful": 0.0514
+     },
+     {
+      "lost": 0.0297,
+      "unpaid": 0.0,
+      "dropped": 0.2519,
+      "soft": 0.2887,
+      "reverted_successful": 0.0551
+     }
+    ],
+    "validator_16_writes": [
+     {
+      "lost": 0.0125,
+      "unpaid": 0.0657,
+      "dropped": 0.0727,
+      "soft": 0.4709,
+      "reverted_successful": 0.0362
+     },
+     {
+      "lost": 0.0144,
+      "unpaid": 0.0334,
+      "dropped": 0.1709,
+      "soft": 0.371,
+      "reverted_successful": 0.0396
+     },
+     {
+      "lost": 0.0156,
+      "unpaid": 0.0269,
+      "dropped": 0.1847,
+      "soft": 0.3571,
+      "reverted_successful": 0.0415
+     },
+     {
+      "lost": 0.0179,
+      "unpaid": 0.0192,
+      "dropped": 0.2167,
+      "soft": 0.3251,
+      "reverted_successful": 0.0454
+     },
+     {
+      "lost": 0.025,
+      "unpaid": 0.013,
+      "dropped": 0.2363,
+      "soft": 0.305,
+      "reverted_successful": 0.0498
+     },
+     {
+      "lost": 0.028,
+      "unpaid": 0.009,
+      "dropped": 0.2476,
+      "soft": 0.2932,
+      "reverted_successful": 0.0538
+     },
+     {
+      "lost": 0.0322,
+      "unpaid": 0.004,
+      "dropped": 0.26,
+      "soft": 0.2748,
+      "reverted_successful": 0.0581
+     },
+     {
+      "lost": 0.0361,
+      "unpaid": 0.0,
+      "dropped": 0.2671,
+      "soft": 0.2648,
+      "reverted_successful": 0.0614
+     }
+    ],
+    "producer_4": [
+     {
+      "lost": 0.0125,
+      "unpaid": 0.0816,
+      "dropped": 0.0727,
+      "soft": 0.4709,
+      "reverted_successful": 0.0362
+     },
+     {
+      "lost": 0.0145,
+      "unpaid": 0.0399,
+      "dropped": 0.175,
+      "soft": 0.3669,
+      "reverted_successful": 0.0399
+     },
+     {
+      "lost": 0.0158,
+      "unpaid": 0.0314,
+      "dropped": 0.2026,
+      "soft": 0.3393,
+      "reverted_successful": 0.0421
+     },
+     {
+      "lost": 0.0204,
+      "unpaid": 0.0223,
+      "dropped": 0.2219,
+      "soft": 0.3198,
+      "reverted_successful": 0.0472
+     },
+     {
+      "lost": 0.0273,
+      "unpaid": 0.0151,
+      "dropped": 0.2439,
+      "soft": 0.2971,
+      "reverted_successful": 0.0523
+     },
+     {
+      "lost": 0.0307,
+      "unpaid": 0.0104,
+      "dropped": 0.2548,
+      "soft": 0.2855,
+      "reverted_successful": 0.0565
+     },
+     {
+      "lost": 0.0351,
+      "unpaid": 0.0046,
+      "dropped": 0.2652,
+      "soft": 0.2679,
+      "reverted_successful": 0.0604
+     },
+     {
+      "lost": 0.0434,
+      "unpaid": 0.0,
+      "dropped": 0.2733,
+      "soft": 0.2557,
+      "reverted_successful": 0.0645
+     }
+    ]
+   }
+  },
+  "m=10": {
+   "one": [
+    {
+     "lost": 0.0,
+     "unpaid": 1.0,
+     "dropped": 0.0,
+     "soft": 0.0,
+     "reverted_successful": 0.0
+    },
+    {
+     "lost": 0.0003,
+     "unpaid": 0.7299,
+     "dropped": 0.0342,
+     "soft": 0.0,
+     "reverted_successful": 0.0014
+    },
+    {
+     "lost": 0.0005,
+     "unpaid": 0.607,
+     "dropped": 0.0599,
+     "soft": 0.0,
+     "reverted_successful": 0.0021
+    },
+    {
+     "lost": 0.0008,
+     "unpaid": 0.5105,
+     "dropped": 0.0792,
+     "soft": 0.0,
+     "reverted_successful": 0.0029
+    },
+    {
+     "lost": 0.0022,
+     "unpaid": 0.366,
+     "dropped": 0.126,
+     "soft": 0.0,
+     "reverted_successful": 0.0057
+    },
+    {
+     "lost": 0.005,
+     "unpaid": 0.2912,
+     "dropped": 0.1608,
+     "soft": 0.0,
+     "reverted_successful": 0.0131
+    },
+    {
+     "lost": 0.0072,
+     "unpaid": 0.214,
+     "dropped": 0.1866,
+     "soft": 0.0,
+     "reverted_successful": 0.0191
+    },
+    {
+     "lost": 0.0147,
+     "unpaid": 0.1428,
+     "dropped": 0.2179,
+     "soft": 0.0,
+     "reverted_successful": 0.028
+    },
+    {
+     "lost": 0.0212,
+     "unpaid": 0.0972,
+     "dropped": 0.2335,
+     "soft": 0.0,
+     "reverted_successful": 0.0359
+    },
+    {
+     "lost": 0.0258,
+     "unpaid": 0.0431,
+     "dropped": 0.2485,
+     "soft": 0.0,
+     "reverted_successful": 0.0422
+    },
+    {
+     "lost": 0.0304,
+     "unpaid": 0.0,
+     "dropped": 0.2569,
+     "soft": 0.0,
+     "reverted_successful": 0.048
+    }
+   ],
+   "two": {
+    "producer_16": [
+     {
+      "lost": 0.0024,
+      "unpaid": 0.039,
+      "dropped": 0.0232,
+      "soft": 0.5148,
+      "reverted_successful": 0.0081
+     },
+     {
+      "lost": 0.0028,
+      "unpaid": 0.0316,
+      "dropped": 0.0386,
+      "soft": 0.4981,
+      "reverted_successful": 0.0095
+     },
+     {
+      "lost": 0.0032,
+      "unpaid": 0.0257,
+      "dropped": 0.0729,
+      "soft": 0.4639,
+      "reverted_successful": 0.0106
+     },
+     {
+      "lost": 0.0035,
+      "unpaid": 0.0202,
+      "dropped": 0.0888,
+      "soft": 0.4479,
+      "reverted_successful": 0.0116
+     },
+     {
+      "lost": 0.0045,
+      "unpaid": 0.0143,
+      "dropped": 0.116,
+      "soft": 0.4207,
+      "reverted_successful": 0.0132
+     },
+     {
+      "lost": 0.0049,
+      "unpaid": 0.0098,
+      "dropped": 0.132,
+      "soft": 0.4047,
+      "reverted_successful": 0.0148
+     },
+     {
+      "lost": 0.0061,
+      "unpaid": 0.0044,
+      "dropped": 0.1447,
+      "soft": 0.3918,
+      "reverted_successful": 0.0182
+     },
+     {
+      "lost": 0.0067,
+      "unpaid": 0.0,
+      "dropped": 0.153,
+      "soft": 0.3831,
+      "reverted_successful": 0.0203
+     }
+    ],
+    "validator_16": [
+     {
+      "lost": 0.0024,
+      "unpaid": 0.0631,
+      "dropped": 0.0232,
+      "soft": 0.5148,
+      "reverted_successful": 0.0081
+     },
+     {
+      "lost": 0.0031,
+      "unpaid": 0.0462,
+      "dropped": 0.0614,
+      "soft": 0.4754,
+      "reverted_successful": 0.0102
+     },
+     {
+      "lost": 0.0034,
+      "unpaid": 0.0378,
+      "dropped": 0.0854,
+      "soft": 0.4513,
+      "reverted_successful": 0.0113
+     },
+     {
+      "lost": 0.0044,
+      "unpaid": 0.0293,
+      "dropped": 0.1062,
+      "soft": 0.4305,
+      "reverted_successful": 0.0131
+     },
+     {
+      "lost": 0.0052,
+      "unpaid": 0.0199,
+      "dropped": 0.1358,
+      "soft": 0.4008,
+      "reverted_successful": 0.0157
+     },
+     {
+      "lost": 0.0064,
+      "unpaid": 0.0138,
+      "dropped": 0.1465,
+      "soft": 0.3898,
+      "reverted_successful": 0.0189
+     },
+     {
+      "lost": 0.0076,
+      "unpaid": 0.0061,
+      "dropped": 0.1718,
+      "soft": 0.3641,
+      "reverted_successful": 0.0215
+     },
+     {
+      "lost": 0.0085,
+      "unpaid": 0.0,
+      "dropped": 0.182,
+      "soft": 0.3534,
+      "reverted_successful": 0.0237
+     }
+    ],
+    "validator_16_writes": [
+     {
+      "lost": 0.0024,
+      "unpaid": 0.1149,
+      "dropped": 0.0232,
+      "soft": 0.5148,
+      "reverted_successful": 0.0081
+     },
+     {
+      "lost": 0.0033,
+      "unpaid": 0.0738,
+      "dropped": 0.0835,
+      "soft": 0.4532,
+      "reverted_successful": 0.011
+     },
+     {
+      "lost": 0.0044,
+      "unpaid": 0.0618,
+      "dropped": 0.0981,
+      "soft": 0.4386,
+      "reverted_successful": 0.0129
+     },
+     {
+      "lost": 0.0052,
+      "unpaid": 0.044,
+      "dropped": 0.1373,
+      "soft": 0.3993,
+      "reverted_successful": 0.0158
+     },
+     {
+      "lost": 0.0069,
+      "unpaid": 0.0303,
+      "dropped": 0.1541,
+      "soft": 0.382,
+      "reverted_successful": 0.0206
+     },
+     {
+      "lost": 0.0081,
+      "unpaid": 0.0206,
+      "dropped": 0.1793,
+      "soft": 0.3563,
+      "reverted_successful": 0.0231
+     },
+     {
+      "lost": 0.0097,
+      "unpaid": 0.0088,
+      "dropped": 0.1934,
+      "soft": 0.3362,
+      "reverted_successful": 0.0268
+     },
+     {
+      "lost": 0.0139,
+      "unpaid": 0.0,
+      "dropped": 0.21,
+      "soft": 0.3165,
+      "reverted_successful": 0.0307
+     }
+    ],
+    "producer_4": [
+     {
+      "lost": 0.0024,
+      "unpaid": 0.1428,
+      "dropped": 0.0232,
+      "soft": 0.5148,
+      "reverted_successful": 0.0081
+     },
+     {
+      "lost": 0.0034,
+      "unpaid": 0.0887,
+      "dropped": 0.0873,
+      "soft": 0.4494,
+      "reverted_successful": 0.0114
+     },
+     {
+      "lost": 0.0045,
+      "unpaid": 0.071,
+      "dropped": 0.1194,
+      "soft": 0.4173,
+      "reverted_successful": 0.0134
+     },
+     {
+      "lost": 0.0061,
+      "unpaid": 0.0516,
+      "dropped": 0.1439,
+      "soft": 0.3926,
+      "reverted_successful": 0.0181
+     },
+     {
+      "lost": 0.0077,
+      "unpaid": 0.0351,
+      "dropped": 0.1732,
+      "soft": 0.3626,
+      "reverted_successful": 0.0219
+     },
+     {
+      "lost": 0.0088,
+      "unpaid": 0.0236,
+      "dropped": 0.1864,
+      "soft": 0.3488,
+      "reverted_successful": 0.0249
+     },
+     {
+      "lost": 0.0132,
+      "unpaid": 0.0099,
+      "dropped": 0.2068,
+      "soft": 0.321,
+      "reverted_successful": 0.0301
+     },
+     {
+      "lost": 0.0168,
+      "unpaid": 0.0,
+      "dropped": 0.2184,
+      "soft": 0.305,
+      "reverted_successful": 0.0331
+     }
+    ]
+   }
+  },
+  "m=30": {
+   "one": [
+    {
+     "lost": 0.0,
+     "unpaid": 1.0,
+     "dropped": 0.0,
+     "soft": 0.0,
+     "reverted_successful": 0.0
+    },
+    {
+     "lost": 0.0002,
+     "unpaid": 0.9571,
+     "dropped": 0.0061,
+     "soft": 0.0,
+     "reverted_successful": 0.0009
+    },
+    {
+     "lost": 0.0002,
+     "unpaid": 0.8538,
+     "dropped": 0.0137,
+     "soft": 0.0,
+     "reverted_successful": 0.0011
+    },
+    {
+     "lost": 0.0004,
+     "unpaid": 0.668,
+     "dropped": 0.0423,
+     "soft": 0.0,
+     "reverted_successful": 0.0016
+    },
+    {
+     "lost": 0.0007,
+     "unpaid": 0.5119,
+     "dropped": 0.075,
+     "soft": 0.0,
+     "reverted_successful": 0.0026
+    },
+    {
+     "lost": 0.0018,
+     "unpaid": 0.3927,
+     "dropped": 0.113,
+     "soft": 0.0,
+     "reverted_successful": 0.0043
+    },
+    {
+     "lost": 0.0031,
+     "unpaid": 0.2843,
+     "dropped": 0.1347,
+     "soft": 0.0,
+     "reverted_successful": 0.0081
+    },
+    {
+     "lost": 0.0056,
+     "unpaid": 0.2006,
+     "dropped": 0.1675,
+     "soft": 0.0,
+     "reverted_successful": 0.0148
+    },
+    {
+     "lost": 0.0065,
+     "unpaid": 0.1405,
+     "dropped": 0.1797,
+     "soft": 0.0,
+     "reverted_successful": 0.0173
+    },
+    {
+     "lost": 0.0108,
+     "unpaid": 0.0617,
+     "dropped": 0.2018,
+     "soft": 0.0,
+     "reverted_successful": 0.0228
+    },
+    {
+     "lost": 0.0144,
+     "unpaid": 0.0,
+     "dropped": 0.214,
+     "soft": 0.0,
+     "reverted_successful": 0.0271
+    }
+   ],
+   "two": {
+    "producer_16": [
+     {
+      "lost": 0.0004,
+      "unpaid": 0.0668,
+      "dropped": 0.0014,
+      "soft": 0.5371,
+      "reverted_successful": 0.0015
+     },
+     {
+      "lost": 0.0006,
+      "unpaid": 0.0561,
+      "dropped": 0.0099,
+      "soft": 0.5265,
+      "reverted_successful": 0.0025
+     },
+     {
+      "lost": 0.0006,
+      "unpaid": 0.0451,
+      "dropped": 0.0209,
+      "soft": 0.5155,
+      "reverted_successful": 0.0027
+     },
+     {
+      "lost": 0.0007,
+      "unpaid": 0.0336,
+      "dropped": 0.0414,
+      "soft": 0.495,
+      "reverted_successful": 0.0032
+     },
+     {
+      "lost": 0.0011,
+      "unpaid": 0.0231,
+      "dropped": 0.0639,
+      "soft": 0.4724,
+      "reverted_successful": 0.004
+     },
+     {
+      "lost": 0.0012,
+      "unpaid": 0.0158,
+      "dropped": 0.0755,
+      "soft": 0.4608,
+      "reverted_successful": 0.0044
+     },
+     {
+      "lost": 0.0015,
+      "unpaid": 0.007,
+      "dropped": 0.0846,
+      "soft": 0.4516,
+      "reverted_successful": 0.0051
+     },
+     {
+      "lost": 0.0022,
+      "unpaid": 0.0,
+      "dropped": 0.098,
+      "soft": 0.4378,
+      "reverted_successful": 0.006
+     }
+    ],
+    "validator_16": [
+     {
+      "lost": 0.0004,
+      "unpaid": 0.108,
+      "dropped": 0.0014,
+      "soft": 0.5371,
+      "reverted_successful": 0.0015
+     },
+     {
+      "lost": 0.0006,
+      "unpaid": 0.0816,
+      "dropped": 0.0183,
+      "soft": 0.5181,
+      "reverted_successful": 0.0027
+     },
+     {
+      "lost": 0.0007,
+      "unpaid": 0.0648,
+      "dropped": 0.027,
+      "soft": 0.5093,
+      "reverted_successful": 0.003
+     },
+     {
+      "lost": 0.0009,
+      "unpaid": 0.047,
+      "dropped": 0.0618,
+      "soft": 0.4745,
+      "reverted_successful": 0.0038
+     },
+     {
+      "lost": 0.0013,
+      "unpaid": 0.032,
+      "dropped": 0.0781,
+      "soft": 0.4582,
+      "reverted_successful": 0.0046
+     },
+     {
+      "lost": 0.0021,
+      "unpaid": 0.0224,
+      "dropped": 0.0856,
+      "soft": 0.4504,
+      "reverted_successful": 0.0053
+     },
+     {
+      "lost": 0.0024,
+      "unpaid": 0.0096,
+      "dropped": 0.1158,
+      "soft": 0.4198,
+      "reverted_successful": 0.0065
+     },
+     {
+      "lost": 0.003,
+      "unpaid": 0.0,
+      "dropped": 0.1249,
+      "soft": 0.4103,
+      "reverted_successful": 0.0079
+     }
+    ],
+    "validator_16_writes": [
+     {
+      "lost": 0.0004,
+      "unpaid": 0.1967,
+      "dropped": 0.0014,
+      "soft": 0.5371,
+      "reverted_successful": 0.0015
+     },
+     {
+      "lost": 0.0007,
+      "unpaid": 0.1263,
+      "dropped": 0.0263,
+      "soft": 0.5101,
+      "reverted_successful": 0.0029
+     },
+     {
+      "lost": 0.0009,
+      "unpaid": 0.099,
+      "dropped": 0.0576,
+      "soft": 0.4788,
+      "reverted_successful": 0.0037
+     },
+     {
+      "lost": 0.0013,
+      "unpaid": 0.071,
+      "dropped": 0.079,
+      "soft": 0.4573,
+      "reverted_successful": 0.0046
+     },
+     {
+      "lost": 0.0023,
+      "unpaid": 0.0483,
+      "dropped": 0.1029,
+      "soft": 0.4329,
+      "reverted_successful": 0.0061
+     },
+     {
+      "lost": 0.0029,
+      "unpaid": 0.0336,
+      "dropped": 0.1216,
+      "soft": 0.4136,
+      "reverted_successful": 0.0074
+     },
+     {
+      "lost": 0.0036,
+      "unpaid": 0.0148,
+      "dropped": 0.135,
+      "soft": 0.3943,
+      "reverted_successful": 0.0102
+     },
+     {
+      "lost": 0.0044,
+      "unpaid": 0.0,
+      "dropped": 0.1436,
+      "soft": 0.3826,
+      "reverted_successful": 0.013
+     }
+    ],
+    "producer_4": [
+     {
+      "lost": 0.0004,
+      "unpaid": 0.2444,
+      "dropped": 0.0014,
+      "soft": 0.5371,
+      "reverted_successful": 0.0015
+     },
+     {
+      "lost": 0.0007,
+      "unpaid": 0.1491,
+      "dropped": 0.0397,
+      "soft": 0.4967,
+      "reverted_successful": 0.0031
+     },
+     {
+      "lost": 0.0011,
+      "unpaid": 0.1152,
+      "dropped": 0.0655,
+      "soft": 0.4709,
+      "reverted_successful": 0.004
+     },
+     {
+      "lost": 0.0015,
+      "unpaid": 0.0829,
+      "dropped": 0.084,
+      "soft": 0.4522,
+      "reverted_successful": 0.005
+     },
+     {
+      "lost": 0.0024,
+      "unpaid": 0.056,
+      "dropped": 0.1177,
+      "soft": 0.4178,
+      "reverted_successful": 0.0066
+     },
+     {
+      "lost": 0.0031,
+      "unpaid": 0.0391,
+      "dropped": 0.1291,
+      "soft": 0.4057,
+      "reverted_successful": 0.0085
+     },
+     {
+      "lost": 0.0042,
+      "unpaid": 0.0172,
+      "dropped": 0.141,
+      "soft": 0.3864,
+      "reverted_successful": 0.0123
+     },
+     {
+      "lost": 0.0055,
+      "unpaid": 0.0,
+      "dropped": 0.1637,
+      "soft": 0.3592,
+      "reverted_successful": 0.0148
+     }
+    ]
+   }
+  },
+  "m=100": {
+   "one": [
+    {
+     "lost": 0.0,
+     "unpaid": 1.0,
+     "dropped": 0.0,
+     "soft": 0.0,
+     "reverted_successful": 0.0
+    },
+    {
+     "lost": 0.0,
+     "unpaid": 0.9714,
+     "dropped": 0.0004,
+     "soft": 0.0,
+     "reverted_successful": 0.0001
+    },
+    {
+     "lost": 0.0001,
+     "unpaid": 0.9598,
+     "dropped": 0.0036,
+     "soft": 0.0,
+     "reverted_successful": 0.0004
+    },
+    {
+     "lost": 0.0002,
+     "unpaid": 0.9307,
+     "dropped": 0.0093,
+     "soft": 0.0,
+     "reverted_successful": 0.0009
+    },
+    {
+     "lost": 0.0003,
+     "unpaid": 0.6969,
+     "dropped": 0.0342,
+     "soft": 0.0,
+     "reverted_successful": 0.0014
+    },
+    {
+     "lost": 0.0005,
+     "unpaid": 0.5518,
+     "dropped": 0.0599,
+     "soft": 0.0,
+     "reverted_successful": 0.0021
+    },
+    {
+     "lost": 0.0008,
+     "unpaid": 0.4168,
+     "dropped": 0.0792,
+     "soft": 0.0,
+     "reverted_successful": 0.0029
+    },
+    {
+     "lost": 0.0019,
+     "unpaid": 0.2782,
+     "dropped": 0.1143,
+     "soft": 0.0,
+     "reverted_successful": 0.0045
+    },
+    {
+     "lost": 0.0022,
+     "unpaid": 0.1926,
+     "dropped": 0.126,
+     "soft": 0.0,
+     "reverted_successful": 0.0057
+    },
+    {
+     "lost": 0.0034,
+     "unpaid": 0.0863,
+     "dropped": 0.1385,
+     "soft": 0.0,
+     "reverted_successful": 0.0095
+    },
+    {
+     "lost": 0.005,
+     "unpaid": 0.0,
+     "dropped": 0.1608,
+     "soft": 0.0,
+     "reverted_successful": 0.0131
+    }
+   ],
+   "two": {
+    "producer_16": [
+     {
+      "lost": 0.0,
+      "unpaid": 0.07,
+      "dropped": 0.0001,
+      "soft": 0.5384,
+      "reverted_successful": 0.0002
+     },
+     {
+      "lost": 0.0001,
+      "unpaid": 0.0661,
+      "dropped": 0.0005,
+      "soft": 0.5358,
+      "reverted_successful": 0.0003
+     },
+     {
+      "lost": 0.0001,
+      "unpaid": 0.0625,
+      "dropped": 0.0007,
+      "soft": 0.5357,
+      "reverted_successful": 0.0004
+     },
+     {
+      "lost": 0.0002,
+      "unpaid": 0.054,
+      "dropped": 0.0066,
+      "soft": 0.5297,
+      "reverted_successful": 0.0011
+     },
+     {
+      "lost": 0.0003,
+      "unpaid": 0.0395,
+      "dropped": 0.0139,
+      "soft": 0.5225,
+      "reverted_successful": 0.0014
+     },
+     {
+      "lost": 0.0003,
+      "unpaid": 0.0266,
+      "dropped": 0.0202,
+      "soft": 0.516,
+      "reverted_successful": 0.0015
+     },
+     {
+      "lost": 0.0004,
+      "unpaid": 0.0117,
+      "dropped": 0.0397,
+      "soft": 0.4964,
+      "reverted_successful": 0.002
+     },
+     {
+      "lost": 0.0006,
+      "unpaid": 0.0,
+      "dropped": 0.0532,
+      "soft": 0.4825,
+      "reverted_successful": 0.0023
+     }
+    ],
+    "validator_16": [
+     {
+      "lost": 0.0,
+      "unpaid": 0.1132,
+      "dropped": 0.0001,
+      "soft": 0.5384,
+      "reverted_successful": 0.0002
+     },
+     {
+      "lost": 0.0001,
+      "unpaid": 0.1067,
+      "dropped": 0.0006,
+      "soft": 0.5358,
+      "reverted_successful": 0.0003
+     },
+     {
+      "lost": 0.0002,
+      "unpaid": 0.0997,
+      "dropped": 0.0047,
+      "soft": 0.5316,
+      "reverted_successful": 0.001
+     },
+     {
+      "lost": 0.0003,
+      "unpaid": 0.0802,
+      "dropped": 0.013,
+      "soft": 0.5234,
+      "reverted_successful": 0.0014
+     },
+     {
+      "lost": 0.0004,
+      "unpaid": 0.0535,
+      "dropped": 0.029,
+      "soft": 0.5072,
+      "reverted_successful": 0.0018
+     },
+     {
+      "lost": 0.0005,
+      "unpaid": 0.037,
+      "dropped": 0.0431,
+      "soft": 0.4929,
+      "reverted_successful": 0.0021
+     },
+     {
+      "lost": 0.0006,
+      "unpaid": 0.0164,
+      "dropped": 0.0602,
+      "soft": 0.4754,
+      "reverted_successful": 0.0025
+     },
+     {
+      "lost": 0.0007,
+      "unpaid": 0.0,
+      "dropped": 0.0702,
+      "soft": 0.4649,
+      "reverted_successful": 0.0028
+     }
+    ],
+    "validator_16_writes": [
+     {
+      "lost": 0.0,
+      "unpaid": 0.2062,
+      "dropped": 0.0001,
+      "soft": 0.5384,
+      "reverted_successful": 0.0002
+     },
+     {
+      "lost": 0.0002,
+      "unpaid": 0.1923,
+      "dropped": 0.004,
+      "soft": 0.5323,
+      "reverted_successful": 0.001
+     },
+     {
+      "lost": 0.0003,
+      "unpaid": 0.1683,
+      "dropped": 0.012,
+      "soft": 0.5244,
+      "reverted_successful": 0.0014
+     },
+     {
+      "lost": 0.0004,
+      "unpaid": 0.1174,
+      "dropped": 0.035,
+      "soft": 0.5013,
+      "reverted_successful": 0.0018
+     },
+     {
+      "lost": 0.0006,
+      "unpaid": 0.0821,
+      "dropped": 0.0543,
+      "soft": 0.4814,
+      "reverted_successful": 0.0023
+     },
+     {
+      "lost": 0.0007,
+      "unpaid": 0.0558,
+      "dropped": 0.068,
+      "soft": 0.4672,
+      "reverted_successful": 0.0028
+     },
+     {
+      "lost": 0.0008,
+      "unpaid": 0.0247,
+      "dropped": 0.0777,
+      "soft": 0.4515,
+      "reverted_successful": 0.0033
+     },
+     {
+      "lost": 0.0017,
+      "unpaid": 0.0,
+      "dropped": 0.0837,
+      "soft": 0.4424,
+      "reverted_successful": 0.0041
+     }
+    ],
+    "producer_4": [
+     {
+      "lost": 0.0,
+      "unpaid": 0.2561,
+      "dropped": 0.0001,
+      "soft": 0.5384,
+      "reverted_successful": 0.0002
+     },
+     {
+      "lost": 0.0002,
+      "unpaid": 0.2362,
+      "dropped": 0.0064,
+      "soft": 0.53,
+      "reverted_successful": 0.0011
+     },
+     {
+      "lost": 0.0003,
+      "unpaid": 0.1973,
+      "dropped": 0.0145,
+      "soft": 0.5219,
+      "reverted_successful": 0.0014
+     },
+     {
+      "lost": 0.0004,
+      "unpaid": 0.1377,
+      "dropped": 0.0389,
+      "soft": 0.4973,
+      "reverted_successful": 0.002
+     },
+     {
+      "lost": 0.0006,
+      "unpaid": 0.0946,
+      "dropped": 0.0624,
+      "soft": 0.473,
+      "reverted_successful": 0.0026
+     },
+     {
+      "lost": 0.0008,
+      "unpaid": 0.0647,
+      "dropped": 0.0735,
+      "soft": 0.4613,
+      "reverted_successful": 0.0031
+     },
+     {
+      "lost": 0.0017,
+      "unpaid": 0.0284,
+      "dropped": 0.0825,
+      "soft": 0.4449,
+      "reverted_successful": 0.0039
+     },
+     {
+      "lost": 0.0019,
+      "unpaid": 0.0,
+      "dropped": 0.1056,
+      "soft": 0.4172,
+      "reverted_successful": 0.0048
+     }
+    ]
+   }
+  }
+ },
+ "uniform_price": {
+  "one": [
+   {
+    "lost": 0.0,
+    "unpaid": 1.0,
+    "dropped": 0.0,
+    "soft": 0.0,
+    "reverted_successful": 0.0
+   },
+   {
+    "lost": 0.0004,
+    "unpaid": 0.7697,
+    "dropped": 0.0679,
+    "soft": 0.0,
+    "reverted_successful": 0.0019
+   },
+   {
+    "lost": 0.0007,
+    "unpaid": 0.6791,
+    "dropped": 0.1065,
+    "soft": 0.0,
+    "reverted_successful": 0.003
+   },
+   {
+    "lost": 0.0014,
+    "unpaid": 0.5977,
+    "dropped": 0.1338,
+    "soft": 0.0,
+    "reverted_successful": 0.0055
+   },
+   {
+    "lost": 0.004,
+    "unpaid": 0.427,
+    "dropped": 0.1956,
+    "soft": 0.0,
+    "reverted_successful": 0.0146
+   },
+   {
+    "lost": 0.0069,
+    "unpaid": 0.3032,
+    "dropped": 0.2409,
+    "soft": 0.0,
+    "reverted_successful": 0.023
+   },
+   {
+    "lost": 0.0117,
+    "unpaid": 0.2162,
+    "dropped": 0.2778,
+    "soft": 0.0,
+    "reverted_successful": 0.0357
+   },
+   {
+    "lost": 0.0161,
+    "unpaid": 0.151,
+    "dropped": 0.3286,
+    "soft": 0.0,
+    "reverted_successful": 0.0456
+   },
+   {
+    "lost": 0.0224,
+    "unpaid": 0.1047,
+    "dropped": 0.355,
+    "soft": 0.0,
+    "reverted_successful": 0.0564
+   },
+   {
+    "lost": 0.0313,
+    "unpaid": 0.0469,
+    "dropped": 0.389,
+    "soft": 0.0,
+    "reverted_successful": 0.068
+   },
+   {
+    "lost": 0.0352,
+    "unpaid": 0.0,
+    "dropped": 0.4099,
+    "soft": 0.0,
+    "reverted_successful": 0.0755
+   }
+  ],
+  "two": {
+   "producer_16": [
+    {
+     "lost": 0.0037,
+     "unpaid": 0.0426,
+     "dropped": 0.0671,
+     "soft": 0.4932,
+     "reverted_successful": 0.0173
+    },
+    {
+     "lost": 0.0044,
+     "unpaid": 0.0295,
+     "dropped": 0.1296,
+     "soft": 0.4276,
+     "reverted_successful": 0.0202
+    },
+    {
+     "lost": 0.005,
+     "unpaid": 0.0237,
+     "dropped": 0.1641,
+     "soft": 0.3931,
+     "reverted_successful": 0.0225
+    },
+    {
+     "lost": 0.0056,
+     "unpaid": 0.0174,
+     "dropped": 0.1919,
+     "soft": 0.3653,
+     "reverted_successful": 0.0246
+    },
+    {
+     "lost": 0.0067,
+     "unpaid": 0.0118,
+     "dropped": 0.2229,
+     "soft": 0.3343,
+     "reverted_successful": 0.0279
+    },
+    {
+     "lost": 0.0075,
+     "unpaid": 0.0077,
+     "dropped": 0.2347,
+     "soft": 0.3223,
+     "reverted_successful": 0.0307
+    },
+    {
+     "lost": 0.0093,
+     "unpaid": 0.0033,
+     "dropped": 0.2525,
+     "soft": 0.3045,
+     "reverted_successful": 0.0349
+    },
+    {
+     "lost": 0.0102,
+     "unpaid": 0.0,
+     "dropped": 0.2691,
+     "soft": 0.2874,
+     "reverted_successful": 0.0377
+    }
+   ],
+   "validator_16": [
+    {
+     "lost": 0.0037,
+     "unpaid": 0.0688,
+     "dropped": 0.0671,
+     "soft": 0.4932,
+     "reverted_successful": 0.0173
+    },
+    {
+     "lost": 0.0049,
+     "unpaid": 0.0432,
+     "dropped": 0.1465,
+     "soft": 0.4106,
+     "reverted_successful": 0.0218
+    },
+    {
+     "lost": 0.0054,
+     "unpaid": 0.0338,
+     "dropped": 0.1842,
+     "soft": 0.373,
+     "reverted_successful": 0.0239
+    },
+    {
+     "lost": 0.0066,
+     "unpaid": 0.024,
+     "dropped": 0.2089,
+     "soft": 0.3482,
+     "reverted_successful": 0.0275
+    },
+    {
+     "lost": 0.0079,
+     "unpaid": 0.0155,
+     "dropped": 0.2417,
+     "soft": 0.3154,
+     "reverted_successful": 0.0319
+    },
+    {
+     "lost": 0.0095,
+     "unpaid": 0.0102,
+     "dropped": 0.2619,
+     "soft": 0.2949,
+     "reverted_successful": 0.0355
+    },
+    {
+     "lost": 0.0111,
+     "unpaid": 0.0044,
+     "dropped": 0.2749,
+     "soft": 0.2815,
+     "reverted_successful": 0.0398
+    },
+    {
+     "lost": 0.0126,
+     "unpaid": 0.0,
+     "dropped": 0.287,
+     "soft": 0.2689,
+     "reverted_successful": 0.0435
+    }
+   ],
+   "validator_16_writes": [
+    {
+     "lost": 0.0037,
+     "unpaid": 0.1253,
+     "dropped": 0.0671,
+     "soft": 0.4932,
+     "reverted_successful": 0.0173
+    },
+    {
+     "lost": 0.0053,
+     "unpaid": 0.0666,
+     "dropped": 0.1808,
+     "soft": 0.3764,
+     "reverted_successful": 0.0237
+    },
+    {
+     "lost": 0.0065,
+     "unpaid": 0.0507,
+     "dropped": 0.2047,
+     "soft": 0.3525,
+     "reverted_successful": 0.0272
+    },
+    {
+     "lost": 0.008,
+     "unpaid": 0.034,
+     "dropped": 0.244,
+     "soft": 0.3131,
+     "reverted_successful": 0.0322
+    },
+    {
+     "lost": 0.0103,
+     "unpaid": 0.0221,
+     "dropped": 0.2698,
+     "soft": 0.2867,
+     "reverted_successful": 0.0379
+    },
+    {
+     "lost": 0.012,
+     "unpaid": 0.0145,
+     "dropped": 0.2843,
+     "soft": 0.2717,
+     "reverted_successful": 0.0423
+    },
+    {
+     "lost": 0.015,
+     "unpaid": 0.0061,
+     "dropped": 0.2991,
+     "soft": 0.251,
+     "reverted_successful": 0.0492
+    },
+    {
+     "lost": 0.017,
+     "unpaid": 0.0,
+     "dropped": 0.3055,
+     "soft": 0.2415,
+     "reverted_successful": 0.0541
+    }
+   ],
+   "producer_4": [
+    {
+     "lost": 0.0037,
+     "unpaid": 0.1557,
+     "dropped": 0.0671,
+     "soft": 0.4932,
+     "reverted_successful": 0.0173
+    },
+    {
+     "lost": 0.0055,
+     "unpaid": 0.078,
+     "dropped": 0.1884,
+     "soft": 0.3687,
+     "reverted_successful": 0.0242
+    },
+    {
+     "lost": 0.0068,
+     "unpaid": 0.0585,
+     "dropped": 0.2244,
+     "soft": 0.3328,
+     "reverted_successful": 0.0282
+    },
+    {
+     "lost": 0.0093,
+     "unpaid": 0.0384,
+     "dropped": 0.2519,
+     "soft": 0.3051,
+     "reverted_successful": 0.0346
+    },
+    {
+     "lost": 0.0113,
+     "unpaid": 0.025,
+     "dropped": 0.2791,
+     "soft": 0.2772,
+     "reverted_successful": 0.0405
+    },
+    {
+     "lost": 0.0136,
+     "unpaid": 0.0165,
+     "dropped": 0.2908,
+     "soft": 0.2648,
+     "reverted_successful": 0.0456
+    },
+    {
+     "lost": 0.0164,
+     "unpaid": 0.0071,
+     "dropped": 0.3038,
+     "soft": 0.2446,
+     "reverted_successful": 0.0525
+    },
+    {
+     "lost": 0.0188,
+     "unpaid": 0.0,
+     "dropped": 0.312,
+     "soft": 0.2319,
+     "reverted_successful": 0.0573
+    }
+   ]
+  }
+ },
+ "raw_q": {
+  "one": [
+   {
+    "lost": 0.0,
+    "unpaid": 1.0,
+    "dropped": 0.0,
+    "soft": 0.0,
+    "reverted_successful": 0.0
+   },
+   {
+    "lost": 0.0253,
+    "unpaid": 0.4108,
+    "dropped": 0.2306,
+    "soft": 0.0,
+    "reverted_successful": 0.0152
+   },
+   {
+    "lost": 0.0256,
+    "unpaid": 0.3371,
+    "dropped": 0.2558,
+    "soft": 0.0,
+    "reverted_successful": 0.0161
+   },
+   {
+    "lost": 0.0266,
+    "unpaid": 0.2956,
+    "dropped": 0.2614,
+    "soft": 0.0,
+    "reverted_successful": 0.0192
+   },
+   {
+    "lost": 0.0289,
+    "unpaid": 0.2414,
+    "dropped": 0.2748,
+    "soft": 0.0,
+    "reverted_successful": 0.0255
+   },
+   {
+    "lost": 0.0334,
+    "unpaid": 0.1878,
+    "dropped": 0.2926,
+    "soft": 0.0,
+    "reverted_successful": 0.0336
+   },
+   {
+    "lost": 0.0408,
+    "unpaid": 0.1383,
+    "dropped": 0.3085,
+    "soft": 0.0,
+    "reverted_successful": 0.0439
+   },
+   {
+    "lost": 0.0554,
+    "unpaid": 0.1006,
+    "dropped": 0.342,
+    "soft": 0.0,
+    "reverted_successful": 0.0559
+   },
+   {
+    "lost": 0.0601,
+    "unpaid": 0.0712,
+    "dropped": 0.3595,
+    "soft": 0.0,
+    "reverted_successful": 0.061
+   },
+   {
+    "lost": 0.0671,
+    "unpaid": 0.0323,
+    "dropped": 0.3783,
+    "soft": 0.0,
+    "reverted_successful": 0.0737
+   },
+   {
+    "lost": 0.0741,
+    "unpaid": 0.0,
+    "dropped": 0.3955,
+    "soft": 0.0,
+    "reverted_successful": 0.0834
+   }
+  ],
+  "two": {
+   "producer_16": [
+    {
+     "lost": 0.0113,
+     "unpaid": 0.0536,
+     "dropped": 0.0381,
+     "soft": 0.5005,
+     "reverted_successful": 0.0319
+    },
+    {
+     "lost": 0.0359,
+     "unpaid": 0.0101,
+     "dropped": 0.2682,
+     "soft": 0.2699,
+     "reverted_successful": 0.0447
+    },
+    {
+     "lost": 0.0363,
+     "unpaid": 0.0084,
+     "dropped": 0.29,
+     "soft": 0.2482,
+     "reverted_successful": 0.0456
+    },
+    {
+     "lost": 0.0369,
+     "unpaid": 0.0068,
+     "dropped": 0.2953,
+     "soft": 0.2429,
+     "reverted_successful": 0.0468
+    },
+    {
+     "lost": 0.0376,
+     "unpaid": 0.005,
+     "dropped": 0.2997,
+     "soft": 0.2385,
+     "reverted_successful": 0.048
+    },
+    {
+     "lost": 0.0385,
+     "unpaid": 0.0035,
+     "dropped": 0.3033,
+     "soft": 0.2348,
+     "reverted_successful": 0.05
+    },
+    {
+     "lost": 0.0406,
+     "unpaid": 0.0015,
+     "dropped": 0.3077,
+     "soft": 0.2302,
+     "reverted_successful": 0.0521
+    },
+    {
+     "lost": 0.0441,
+     "unpaid": 0.0,
+     "dropped": 0.3107,
+     "soft": 0.227,
+     "reverted_successful": 0.0537
+    }
+   ],
+   "validator_16": [
+    {
+     "lost": 0.0113,
+     "unpaid": 0.0866,
+     "dropped": 0.0381,
+     "soft": 0.5005,
+     "reverted_successful": 0.0319
+    },
+    {
+     "lost": 0.0362,
+     "unpaid": 0.0153,
+     "dropped": 0.2772,
+     "soft": 0.261,
+     "reverted_successful": 0.0453
+    },
+    {
+     "lost": 0.0367,
+     "unpaid": 0.0128,
+     "dropped": 0.2938,
+     "soft": 0.2443,
+     "reverted_successful": 0.0462
+    },
+    {
+     "lost": 0.0375,
+     "unpaid": 0.0101,
+     "dropped": 0.2992,
+     "soft": 0.239,
+     "reverted_successful": 0.0478
+    },
+    {
+     "lost": 0.0392,
+     "unpaid": 0.0071,
+     "dropped": 0.3047,
+     "soft": 0.2333,
+     "reverted_successful": 0.0504
+    },
+    {
+     "lost": 0.042,
+     "unpaid": 0.0049,
+     "dropped": 0.3083,
+     "soft": 0.2295,
+     "reverted_successful": 0.0526
+    },
+    {
+     "lost": 0.0446,
+     "unpaid": 0.0022,
+     "dropped": 0.3148,
+     "soft": 0.2225,
+     "reverted_successful": 0.0551
+    },
+    {
+     "lost": 0.0458,
+     "unpaid": 0.0,
+     "dropped": 0.3183,
+     "soft": 0.2187,
+     "reverted_successful": 0.0573
+    }
+   ],
+   "validator_16_writes": [
+    {
+     "lost": 0.0113,
+     "unpaid": 0.1578,
+     "dropped": 0.0381,
+     "soft": 0.5005,
+     "reverted_successful": 0.0319
+    },
+    {
+     "lost": 0.0367,
+     "unpaid": 0.0248,
+     "dropped": 0.2934,
+     "soft": 0.2448,
+     "reverted_successful": 0.0461
+    },
+    {
+     "lost": 0.0375,
+     "unpaid": 0.021,
+     "dropped": 0.2986,
+     "soft": 0.2396,
+     "reverted_successful": 0.0477
+    },
+    {
+     "lost": 0.0396,
+     "unpaid": 0.0157,
+     "dropped": 0.3053,
+     "soft": 0.2328,
+     "reverted_successful": 0.0508
+    },
+    {
+     "lost": 0.0442,
+     "unpaid": 0.0111,
+     "dropped": 0.312,
+     "soft": 0.2257,
+     "reverted_successful": 0.0538
+    },
+    {
+     "lost": 0.0456,
+     "unpaid": 0.0077,
+     "dropped": 0.3173,
+     "soft": 0.2197,
+     "reverted_successful": 0.0565
+    },
+    {
+     "lost": 0.0477,
+     "unpaid": 0.0035,
+     "dropped": 0.3218,
+     "soft": 0.2083,
+     "reverted_successful": 0.0597
+    },
+    {
+     "lost": 0.0514,
+     "unpaid": 0.0,
+     "dropped": 0.3261,
+     "soft": 0.2025,
+     "reverted_successful": 0.0628
+    }
+   ],
+   "producer_4": [
+    {
+     "lost": 0.0113,
+     "unpaid": 0.196,
+     "dropped": 0.0381,
+     "soft": 0.5005,
+     "reverted_successful": 0.0319
+    },
+    {
+     "lost": 0.0368,
+     "unpaid": 0.0301,
+     "dropped": 0.2944,
+     "soft": 0.2438,
+     "reverted_successful": 0.0466
+    },
+    {
+     "lost": 0.0376,
+     "unpaid": 0.025,
+     "dropped": 0.3001,
+     "soft": 0.2381,
+     "reverted_successful": 0.048
+    },
+    {
+     "lost": 0.0405,
+     "unpaid": 0.0182,
+     "dropped": 0.3074,
+     "soft": 0.2305,
+     "reverted_successful": 0.052
+    },
+    {
+     "lost": 0.0448,
+     "unpaid": 0.0129,
+     "dropped": 0.3156,
+     "soft": 0.2217,
+     "reverted_successful": 0.0554
+    },
+    {
+     "lost": 0.0464,
+     "unpaid": 0.0092,
+     "dropped": 0.3195,
+     "soft": 0.212,
+     "reverted_successful": 0.0583
+    },
+    {
+     "lost": 0.0503,
+     "unpaid": 0.0041,
+     "dropped": 0.325,
+     "soft": 0.2044,
+     "reverted_successful": 0.062
+    },
+    {
+     "lost": 0.0584,
+     "unpaid": 0.0,
+     "dropped": 0.3501,
+     "soft": 0.1759,
+     "reverted_successful": 0.0657
+    }
+   ]
+  }
+ },
+ "with_tips": {
+  "one": [
+   {
+    "lost": 0.0,
+    "unpaid": 1.0,
+    "dropped": 0.0,
+    "soft": 0.0,
+    "reverted_successful": 0.0
+   },
+   {
+    "lost": 0.0007,
+    "unpaid": 0.547,
+    "dropped": 0.0754,
+    "soft": 0.0,
+    "reverted_successful": 0.0024
+   },
+   {
+    "lost": 0.0022,
+    "unpaid": 0.4374,
+    "dropped": 0.1139,
+    "soft": 0.0,
+    "reverted_successful": 0.005
+   },
+   {
+    "lost": 0.0035,
+    "unpaid": 0.3569,
+    "dropped": 0.1358,
+    "soft": 0.0,
+    "reverted_successful": 0.0093
+   },
+   {
+    "lost": 0.0074,
+    "unpaid": 0.2728,
+    "dropped": 0.1827,
+    "soft": 0.0,
+    "reverted_successful": 0.0191
+   },
+   {
+    "lost": 0.0169,
+    "unpaid": 0.2041,
+    "dropped": 0.2209,
+    "soft": 0.0,
+    "reverted_successful": 0.0289
+   },
+   {
+    "lost": 0.0256,
+    "unpaid": 0.145,
+    "dropped": 0.2529,
+    "soft": 0.0,
+    "reverted_successful": 0.0418
+   },
+   {
+    "lost": 0.0376,
+    "unpaid": 0.1033,
+    "dropped": 0.3048,
+    "soft": 0.0,
+    "reverted_successful": 0.0531
+   },
+   {
+    "lost": 0.0435,
+    "unpaid": 0.0717,
+    "dropped": 0.3303,
+    "soft": 0.0,
+    "reverted_successful": 0.0598
+   },
+   {
+    "lost": 0.0543,
+    "unpaid": 0.0323,
+    "dropped": 0.3596,
+    "soft": 0.0,
+    "reverted_successful": 0.0733
+   },
+   {
+    "lost": 0.0615,
+    "unpaid": 0.0,
+    "dropped": 0.3827,
+    "soft": 0.0,
+    "reverted_successful": 0.0844
+   }
+  ],
+  "two": {
+   "producer_16": [
+    {
+     "lost": 0.0119,
+     "unpaid": 0.0231,
+     "dropped": 0.0705,
+     "soft": 0.4844,
+     "reverted_successful": 0.0382
+    },
+    {
+     "lost": 0.0125,
+     "unpaid": 0.0153,
+     "dropped": 0.1304,
+     "soft": 0.4228,
+     "reverted_successful": 0.0395
+    },
+    {
+     "lost": 0.0138,
+     "unpaid": 0.0123,
+     "dropped": 0.1619,
+     "soft": 0.3912,
+     "reverted_successful": 0.0407
+    },
+    {
+     "lost": 0.0143,
+     "unpaid": 0.0095,
+     "dropped": 0.177,
+     "soft": 0.3761,
+     "reverted_successful": 0.0421
+    },
+    {
+     "lost": 0.0157,
+     "unpaid": 0.0067,
+     "dropped": 0.2022,
+     "soft": 0.3509,
+     "reverted_successful": 0.0441
+    },
+    {
+     "lost": 0.017,
+     "unpaid": 0.0046,
+     "dropped": 0.213,
+     "soft": 0.34,
+     "reverted_successful": 0.0467
+    },
+    {
+     "lost": 0.0204,
+     "unpaid": 0.002,
+     "dropped": 0.2309,
+     "soft": 0.322,
+     "reverted_successful": 0.0495
+    },
+    {
+     "lost": 0.0238,
+     "unpaid": 0.0,
+     "dropped": 0.2388,
+     "soft": 0.3138,
+     "reverted_successful": 0.052
+    }
+   ],
+   "validator_16": [
+    {
+     "lost": 0.0119,
+     "unpaid": 0.0373,
+     "dropped": 0.0705,
+     "soft": 0.4844,
+     "reverted_successful": 0.0382
+    },
+    {
+     "lost": 0.0136,
+     "unpaid": 0.0225,
+     "dropped": 0.1467,
+     "soft": 0.4064,
+     "reverted_successful": 0.0404
+    },
+    {
+     "lost": 0.014,
+     "unpaid": 0.0181,
+     "dropped": 0.1727,
+     "soft": 0.3804,
+     "reverted_successful": 0.0414
+    },
+    {
+     "lost": 0.0153,
+     "unpaid": 0.0138,
+     "dropped": 0.1868,
+     "soft": 0.3663,
+     "reverted_successful": 0.0437
+    },
+    {
+     "lost": 0.0175,
+     "unpaid": 0.0093,
+     "dropped": 0.2181,
+     "soft": 0.335,
+     "reverted_successful": 0.0476
+    },
+    {
+     "lost": 0.021,
+     "unpaid": 0.0063,
+     "dropped": 0.2325,
+     "soft": 0.3203,
+     "reverted_successful": 0.05
+    },
+    {
+     "lost": 0.0277,
+     "unpaid": 0.0028,
+     "dropped": 0.2466,
+     "soft": 0.3058,
+     "reverted_successful": 0.0536
+    },
+    {
+     "lost": 0.0299,
+     "unpaid": 0.0,
+     "dropped": 0.2577,
+     "soft": 0.2942,
+     "reverted_successful": 0.0564
+    }
+   ],
+   "validator_16_writes": [
+    {
+     "lost": 0.0119,
+     "unpaid": 0.068,
+     "dropped": 0.0705,
+     "soft": 0.4844,
+     "reverted_successful": 0.0382
+    },
+    {
+     "lost": 0.014,
+     "unpaid": 0.0354,
+     "dropped": 0.1709,
+     "soft": 0.3822,
+     "reverted_successful": 0.0413
+    },
+    {
+     "lost": 0.0151,
+     "unpaid": 0.0289,
+     "dropped": 0.185,
+     "soft": 0.3682,
+     "reverted_successful": 0.0434
+    },
+    {
+     "lost": 0.0179,
+     "unpaid": 0.0206,
+     "dropped": 0.219,
+     "soft": 0.334,
+     "reverted_successful": 0.0477
+    },
+    {
+     "lost": 0.0241,
+     "unpaid": 0.0141,
+     "dropped": 0.2394,
+     "soft": 0.3132,
+     "reverted_successful": 0.0522
+    },
+    {
+     "lost": 0.0286,
+     "unpaid": 0.0096,
+     "dropped": 0.2529,
+     "soft": 0.2991,
+     "reverted_successful": 0.0558
+    },
+    {
+     "lost": 0.0322,
+     "unpaid": 0.0042,
+     "dropped": 0.267,
+     "soft": 0.2791,
+     "reverted_successful": 0.0593
+    },
+    {
+     "lost": 0.0359,
+     "unpaid": 0.0,
+     "dropped": 0.2757,
+     "soft": 0.2674,
+     "reverted_successful": 0.0622
+    }
+   ],
+   "producer_4": [
+    {
+     "lost": 0.0119,
+     "unpaid": 0.0845,
+     "dropped": 0.0705,
+     "soft": 0.4844,
+     "reverted_successful": 0.0382
+    },
+    {
+     "lost": 0.0142,
+     "unpaid": 0.0421,
+     "dropped": 0.1752,
+     "soft": 0.3779,
+     "reverted_successful": 0.0418
+    },
+    {
+     "lost": 0.0158,
+     "unpaid": 0.0336,
+     "dropped": 0.2029,
+     "soft": 0.3502,
+     "reverted_successful": 0.0443
+    },
+    {
+     "lost": 0.0197,
+     "unpaid": 0.0237,
+     "dropped": 0.2295,
+     "soft": 0.3234,
+     "reverted_successful": 0.0494
+    },
+    {
+     "lost": 0.0281,
+     "unpaid": 0.0162,
+     "dropped": 0.2482,
+     "soft": 0.3041,
+     "reverted_successful": 0.0543
+    },
+    {
+     "lost": 0.0307,
+     "unpaid": 0.0111,
+     "dropped": 0.2622,
+     "soft": 0.2894,
+     "reverted_successful": 0.0575
+    },
+    {
+     "lost": 0.0351,
+     "unpaid": 0.0048,
+     "dropped": 0.2734,
+     "soft": 0.2709,
+     "reverted_successful": 0.0614
+    },
+    {
+     "lost": 0.0423,
+     "unpaid": 0.0,
+     "dropped": 0.2834,
+     "soft": 0.2567,
+     "reverted_successful": 0.0661
+    }
+   ]
+  }
+ },
+ "alt_k": {
+  "producer_16": [
+   {
+    "lost": 0.0456,
+    "unpaid": 0.0016,
+    "dropped": 0.2377,
+    "soft": 0.1963,
+    "reverted_successful": 0.0751
+   },
+   {
+    "lost": 0.0458,
+    "unpaid": 0.0015,
+    "dropped": 0.2407,
+    "soft": 0.1932,
+    "reverted_successful": 0.0753
+   },
+   {
+    "lost": 0.0464,
+    "unpaid": 0.0013,
+    "dropped": 0.2421,
+    "soft": 0.1918,
+    "reverted_successful": 0.0755
+   },
+   {
+    "lost": 0.0467,
+    "unpaid": 0.0011,
+    "dropped": 0.2451,
+    "soft": 0.1887,
+    "reverted_successful": 0.0757
+   },
+   {
+    "lost": 0.0472,
+    "unpaid": 0.0008,
+    "dropped": 0.2611,
+    "soft": 0.1727,
+    "reverted_successful": 0.0762
+   },
+   {
+    "lost": 0.0494,
+    "unpaid": 0.0006,
+    "dropped": 0.2667,
+    "soft": 0.167,
+    "reverted_successful": 0.0768
+   },
+   {
+    "lost": 0.0499,
+    "unpaid": 0.0003,
+    "dropped": 0.2743,
+    "soft": 0.1593,
+    "reverted_successful": 0.0775
+   },
+   {
+    "lost": 0.0527,
+    "unpaid": 0.0,
+    "dropped": 0.2797,
+    "soft": 0.1537,
+    "reverted_successful": 0.0778
+   }
+  ],
+  "validator_16": [
+   {
+    "lost": 0.0456,
+    "unpaid": 0.0027,
+    "dropped": 0.2377,
+    "soft": 0.1963,
+    "reverted_successful": 0.0751
+   },
+   {
+    "lost": 0.0463,
+    "unpaid": 0.0023,
+    "dropped": 0.2417,
+    "soft": 0.1922,
+    "reverted_successful": 0.0754
+   },
+   {
+    "lost": 0.0467,
+    "unpaid": 0.0021,
+    "dropped": 0.2439,
+    "soft": 0.1899,
+    "reverted_successful": 0.0757
+   },
+   {
+    "lost": 0.0471,
+    "unpaid": 0.0017,
+    "dropped": 0.2486,
+    "soft": 0.1851,
+    "reverted_successful": 0.0761
+   },
+   {
+    "lost": 0.0495,
+    "unpaid": 0.0012,
+    "dropped": 0.2672,
+    "soft": 0.1666,
+    "reverted_successful": 0.0771
+   },
+   {
+    "lost": 0.0525,
+    "unpaid": 0.0009,
+    "dropped": 0.2746,
+    "soft": 0.159,
+    "reverted_successful": 0.0776
+   },
+   {
+    "lost": 0.0528,
+    "unpaid": 0.0004,
+    "dropped": 0.2838,
+    "soft": 0.1482,
+    "reverted_successful": 0.0779
+   },
+   {
+    "lost": 0.0535,
+    "unpaid": 0.0,
+    "dropped": 0.288,
+    "soft": 0.1439,
+    "reverted_successful": 0.0783
+   }
+  ],
+  "validator_16_writes": [
+   {
+    "lost": 0.0456,
+    "unpaid": 0.0048,
+    "dropped": 0.2377,
+    "soft": 0.1963,
+    "reverted_successful": 0.0751
+   },
+   {
+    "lost": 0.0467,
+    "unpaid": 0.004,
+    "dropped": 0.2433,
+    "soft": 0.1905,
+    "reverted_successful": 0.0757
+   },
+   {
+    "lost": 0.047,
+    "unpaid": 0.0035,
+    "dropped": 0.2479,
+    "soft": 0.1859,
+    "reverted_successful": 0.0761
+   },
+   {
+    "lost": 0.0495,
+    "unpaid": 0.0027,
+    "dropped": 0.2673,
+    "soft": 0.1664,
+    "reverted_successful": 0.0771
+   },
+   {
+    "lost": 0.0527,
+    "unpaid": 0.0019,
+    "dropped": 0.2803,
+    "soft": 0.1529,
+    "reverted_successful": 0.0778
+   },
+   {
+    "lost": 0.0533,
+    "unpaid": 0.0013,
+    "dropped": 0.2875,
+    "soft": 0.1444,
+    "reverted_successful": 0.0782
+   },
+   {
+    "lost": 0.0542,
+    "unpaid": 0.0006,
+    "dropped": 0.2914,
+    "soft": 0.1401,
+    "reverted_successful": 0.0789
+   },
+   {
+    "lost": 0.0558,
+    "unpaid": 0.0,
+    "dropped": 0.2949,
+    "soft": 0.1344,
+    "reverted_successful": 0.0803
+   }
+  ],
+  "producer_4": [
+   {
+    "lost": 0.0456,
+    "unpaid": 0.006,
+    "dropped": 0.2377,
+    "soft": 0.1963,
+    "reverted_successful": 0.0751
+   },
+   {
+    "lost": 0.0467,
+    "unpaid": 0.0048,
+    "dropped": 0.2441,
+    "soft": 0.1897,
+    "reverted_successful": 0.0757
+   },
+   {
+    "lost": 0.0474,
+    "unpaid": 0.004,
+    "dropped": 0.2621,
+    "soft": 0.1717,
+    "reverted_successful": 0.0763
+   },
+   {
+    "lost": 0.0499,
+    "unpaid": 0.0032,
+    "dropped": 0.2743,
+    "soft": 0.1593,
+    "reverted_successful": 0.0775
+   },
+   {
+    "lost": 0.0531,
+    "unpaid": 0.0022,
+    "dropped": 0.2842,
+    "soft": 0.1478,
+    "reverted_successful": 0.0781
+   },
+   {
+    "lost": 0.0538,
+    "unpaid": 0.0015,
+    "dropped": 0.2892,
+    "soft": 0.1422,
+    "reverted_successful": 0.0785
+   },
+   {
+    "lost": 0.0555,
+    "unpaid": 0.0007,
+    "dropped": 0.2938,
+    "soft": 0.1357,
+    "reverted_successful": 0.0801
+   },
+   {
+    "lost": 0.0558,
+    "unpaid": 0.0,
+    "dropped": 0.3023,
+    "soft": 0.1251,
+    "reverted_successful": 0.0805
+   }
+  ]
+ }
+}

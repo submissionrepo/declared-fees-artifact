@@ -1,0 +1,430 @@
+{
+ "sample": "solana_a_v4.jsonl",
+ "blocks": 60,
+ "threads=4": {
+  "firm": {
+   "over_firm": 1.0,
+   "wasted_share": 0.0,
+   "reruns": 0
+  },
+  "soft|retry": {
+   "over_firm": 1.0079,
+   "wasted_share": 0.1181,
+   "reruns": 1602
+  },
+  "soft+softread|retry": {
+   "over_firm": 1.0353,
+   "wasted_share": 0.1478,
+   "reruns": 1887
+  },
+  "firm|retry": {
+   "over_firm": 1.0,
+   "wasted_share": 0.0,
+   "reruns": 0
+  },
+  "firm+softread|retry": {
+   "over_firm": 1.0363,
+   "wasted_share": 0.0529,
+   "reruns": 455
+  },
+  "soft+softread": {
+   "over_firm": 1.0919,
+   "wasted_share": 0.19,
+   "reruns": 2061
+  },
+  "soft": {
+   "over_firm": 1.0709,
+   "wasted_share": 0.1777,
+   "reruns": 2368
+  },
+  "menu@0.05": {
+   "over_firm": 0.9685,
+   "wasted_share": 0.042,
+   "reruns": 481
+  },
+  "menu@0.05|retry": {
+   "over_firm": 0.9653,
+   "wasted_share": 0.0239,
+   "reruns": 303
+  },
+  "menu@0.05+softread|retry": {
+   "over_firm": 1.0095,
+   "wasted_share": 0.0749,
+   "reruns": 763
+  },
+  "menu@0.05+softcold|retry": {
+   "over_firm": 0.9651,
+   "wasted_share": 0.0243,
+   "reruns": 309
+  },
+  "menu@0.1": {
+   "over_firm": 0.9506,
+   "wasted_share": 0.0495,
+   "reruns": 526
+  },
+  "menu@0.1|retry": {
+   "over_firm": 0.9393,
+   "wasted_share": 0.028,
+   "reruns": 333
+  },
+  "menu@0.1+softread|retry": {
+   "over_firm": 0.9816,
+   "wasted_share": 0.0766,
+   "reruns": 776
+  },
+  "menu@0.1+softcold|retry": {
+   "over_firm": 0.9401,
+   "wasted_share": 0.0284,
+   "reruns": 342
+  },
+  "menu@0.25": {
+   "over_firm": 0.9576,
+   "wasted_share": 0.0602,
+   "reruns": 698
+  },
+  "menu@0.25|retry": {
+   "over_firm": 0.9438,
+   "wasted_share": 0.0398,
+   "reruns": 484
+  },
+  "menu@0.25+softread|retry": {
+   "over_firm": 0.9806,
+   "wasted_share": 0.0856,
+   "reruns": 889
+  },
+  "menu@0.25+softcold|retry": {
+   "over_firm": 0.9445,
+   "wasted_share": 0.0402,
+   "reruns": 489
+  },
+  "menu@0.5": {
+   "over_firm": 0.9781,
+   "wasted_share": 0.0906,
+   "reruns": 1063
+  },
+  "menu@0.5|retry": {
+   "over_firm": 0.9588,
+   "wasted_share": 0.0636,
+   "reruns": 803
+  },
+  "menu@0.5+softread|retry": {
+   "over_firm": 0.9928,
+   "wasted_share": 0.1034,
+   "reruns": 1181
+  },
+  "menu@0.5+softcold|retry": {
+   "over_firm": 0.9584,
+   "wasted_share": 0.0634,
+   "reruns": 809
+  },
+  "occ_firm": {
+   "increase": 0.0689
+  },
+  "occ_read": {
+   "increase": 0.067
+  },
+  "occ_softread": {
+   "increase": 0.1248
+  },
+  "occ_soft": {
+   "increase": 0.1316
+  },
+  "occ_softread_firm": {
+   "increase": 0.0597
+  },
+  "occ_softread_read": {
+   "increase": 0.0608
+  },
+  "occ_softread_softread": {
+   "increase": 0.1133
+  },
+  "occ_softread_soft": {
+   "increase": 0.117
+  },
+  "share_unused_soft_retried": 0.0788
+ },
+ "threads=8": {
+  "firm": {
+   "over_firm": 1.0,
+   "wasted_share": 0.0,
+   "reruns": 0
+  },
+  "soft|retry": {
+   "over_firm": 0.8832,
+   "wasted_share": 0.1851,
+   "reruns": 2797
+  },
+  "soft+softread|retry": {
+   "over_firm": 0.8905,
+   "wasted_share": 0.2184,
+   "reruns": 3186
+  },
+  "firm|retry": {
+   "over_firm": 1.0,
+   "wasted_share": 0.0,
+   "reruns": 0
+  },
+  "firm+softread|retry": {
+   "over_firm": 1.0197,
+   "wasted_share": 0.0847,
+   "reruns": 792
+  },
+  "soft+softread": {
+   "over_firm": 0.9847,
+   "wasted_share": 0.3406,
+   "reruns": 4511
+  },
+  "soft": {
+   "over_firm": 0.9725,
+   "wasted_share": 0.3281,
+   "reruns": 5625
+  },
+  "menu@0.05": {
+   "over_firm": 0.8773,
+   "wasted_share": 0.0728,
+   "reruns": 835
+  },
+  "menu@0.05|retry": {
+   "over_firm": 0.9171,
+   "wasted_share": 0.0402,
+   "reruns": 502
+  },
+  "menu@0.05+softread|retry": {
+   "over_firm": 0.934,
+   "wasted_share": 0.1197,
+   "reruns": 1325
+  },
+  "menu@0.05+softcold|retry": {
+   "over_firm": 0.9149,
+   "wasted_share": 0.0407,
+   "reruns": 511
+  },
+  "menu@0.1": {
+   "over_firm": 0.8355,
+   "wasted_share": 0.0843,
+   "reruns": 936
+  },
+  "menu@0.1|retry": {
+   "over_firm": 0.8676,
+   "wasted_share": 0.0445,
+   "reruns": 538
+  },
+  "menu@0.1+softread|retry": {
+   "over_firm": 0.9027,
+   "wasted_share": 0.1246,
+   "reruns": 1360
+  },
+  "menu@0.1+softcold|retry": {
+   "over_firm": 0.8639,
+   "wasted_share": 0.0441,
+   "reruns": 545
+  },
+  "menu@0.25": {
+   "over_firm": 0.8452,
+   "wasted_share": 0.1183,
+   "reruns": 1454
+  },
+  "menu@0.25|retry": {
+   "over_firm": 0.8623,
+   "wasted_share": 0.065,
+   "reruns": 791
+  },
+  "menu@0.25+softread|retry": {
+   "over_firm": 0.8787,
+   "wasted_share": 0.1339,
+   "reruns": 1500
+  },
+  "menu@0.25+softcold|retry": {
+   "over_firm": 0.8626,
+   "wasted_share": 0.0648,
+   "reruns": 790
+  },
+  "menu@0.5": {
+   "over_firm": 0.8786,
+   "wasted_share": 0.188,
+   "reruns": 2500
+  },
+  "menu@0.5|retry": {
+   "over_firm": 0.8664,
+   "wasted_share": 0.1069,
+   "reruns": 1416
+  },
+  "menu@0.5+softread|retry": {
+   "over_firm": 0.89,
+   "wasted_share": 0.1649,
+   "reruns": 2061
+  },
+  "menu@0.5+softcold|retry": {
+   "over_firm": 0.8673,
+   "wasted_share": 0.1081,
+   "reruns": 1428
+  },
+  "occ_firm": {
+   "increase": 0.127
+  },
+  "occ_read": {
+   "increase": 0.0977
+  },
+  "occ_softread": {
+   "increase": 0.1703
+  },
+  "occ_soft": {
+   "increase": 0.1988
+  },
+  "occ_softread_firm": {
+   "increase": 0.1002
+  },
+  "occ_softread_read": {
+   "increase": 0.1022
+  },
+  "occ_softread_softread": {
+   "increase": 0.1733
+  },
+  "occ_softread_soft": {
+   "increase": 0.1841
+  },
+  "share_unused_soft_retried": 0.1224
+ },
+ "threads=16": {
+  "firm": {
+   "over_firm": 1.0,
+   "wasted_share": 0.0,
+   "reruns": 0
+  },
+  "soft|retry": {
+   "over_firm": 0.859,
+   "wasted_share": 0.2401,
+   "reruns": 4142
+  },
+  "soft+softread|retry": {
+   "over_firm": 0.8685,
+   "wasted_share": 0.2713,
+   "reruns": 4447
+  },
+  "firm|retry": {
+   "over_firm": 1.0,
+   "wasted_share": 0.0,
+   "reruns": 0
+  },
+  "firm+softread|retry": {
+   "over_firm": 1.0185,
+   "wasted_share": 0.1074,
+   "reruns": 1032
+  },
+  "soft+softread": {
+   "over_firm": 0.8661,
+   "wasted_share": 0.4849,
+   "reruns": 8531
+  },
+  "soft": {
+   "over_firm": 0.8604,
+   "wasted_share": 0.4538,
+   "reruns": 11036
+  },
+  "menu@0.05": {
+   "over_firm": 0.8449,
+   "wasted_share": 0.114,
+   "reruns": 1444
+  },
+  "menu@0.05|retry": {
+   "over_firm": 0.9212,
+   "wasted_share": 0.0597,
+   "reruns": 775
+  },
+  "menu@0.05+softread|retry": {
+   "over_firm": 0.9308,
+   "wasted_share": 0.151,
+   "reruns": 1740
+  },
+  "menu@0.05+softcold|retry": {
+   "over_firm": 0.9182,
+   "wasted_share": 0.0594,
+   "reruns": 776
+  },
+  "menu@0.1": {
+   "over_firm": 0.7915,
+   "wasted_share": 0.1279,
+   "reruns": 1549
+  },
+  "menu@0.1|retry": {
+   "over_firm": 0.875,
+   "wasted_share": 0.0652,
+   "reruns": 815
+  },
+  "menu@0.1+softread|retry": {
+   "over_firm": 0.9,
+   "wasted_share": 0.1586,
+   "reruns": 1810
+  },
+  "menu@0.1+softcold|retry": {
+   "over_firm": 0.8747,
+   "wasted_share": 0.0666,
+   "reruns": 824
+  },
+  "menu@0.25": {
+   "over_firm": 0.7767,
+   "wasted_share": 0.1794,
+   "reruns": 2614
+  },
+  "menu@0.25|retry": {
+   "over_firm": 0.8503,
+   "wasted_share": 0.0927,
+   "reruns": 1186
+  },
+  "menu@0.25+softread|retry": {
+   "over_firm": 0.8837,
+   "wasted_share": 0.1775,
+   "reruns": 2124
+  },
+  "menu@0.25+softcold|retry": {
+   "over_firm": 0.8533,
+   "wasted_share": 0.0936,
+   "reruns": 1196
+  },
+  "menu@0.5": {
+   "over_firm": 0.8071,
+   "wasted_share": 0.2691,
+   "reruns": 4530
+  },
+  "menu@0.5|retry": {
+   "over_firm": 0.859,
+   "wasted_share": 0.1491,
+   "reruns": 2105
+  },
+  "menu@0.5+softread|retry": {
+   "over_firm": 0.8701,
+   "wasted_share": 0.208,
+   "reruns": 2879
+  },
+  "menu@0.5+softcold|retry": {
+   "over_firm": 0.859,
+   "wasted_share": 0.149,
+   "reruns": 2110
+  },
+  "occ_firm": {
+   "increase": 0.1822
+  },
+  "occ_read": {
+   "increase": 0.1466
+  },
+  "occ_softread": {
+   "increase": 0.183
+  },
+  "occ_soft": {
+   "increase": 0.203
+  },
+  "occ_softread_firm": {
+   "increase": 0.148
+  },
+  "occ_softread_read": {
+   "increase": 0.1256
+  },
+  "occ_softread_softread": {
+   "increase": 0.1742
+  },
+  "occ_softread_soft": {
+   "increase": 0.1913
+  },
+  "share_unused_soft_retried": 0.1718
+ }
+}

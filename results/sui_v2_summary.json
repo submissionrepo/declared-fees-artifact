@@ -1,0 +1,50 @@
+{
+ "transactions": 2501,
+ "checkpoints": 160,
+ "status": {
+  "SUCCESS": 2258,
+  "FAILURE": 243
+ },
+ "successful_mutable_declarations": {
+  "all": {
+   "n": 5501,
+   "upper_unchanged_share": 0.533,
+   "middle_no_direct_child_share": 0.5032,
+   "strict_lower_share": 0.1271
+  },
+  "heat_1": {
+   "n": 93,
+   "upper_unchanged_share": 0.2258,
+   "middle_no_direct_child_share": 0.2043,
+   "strict_lower_share": 0.043
+  },
+  "heat_10-99": {
+   "n": 2623,
+   "upper_unchanged_share": 0.5063,
+   "middle_no_direct_child_share": 0.4766,
+   "strict_lower_share": 0.125
+  },
+  "heat_100+": {
+   "n": 1551,
+   "upper_unchanged_share": 0.7589,
+   "middle_no_direct_child_share": 0.7079,
+   "strict_lower_share": 0.0271
+  },
+  "heat_2-9": {
+   "n": 1234,
+   "upper_unchanged_share": 0.329,
+   "middle_no_direct_child_share": 0.325,
+   "strict_lower_share": 0.2634
+  }
+ },
+ "failed_mutable_declarations": {
+  "n": 824,
+  "unchanged_share": 1.0
+ },
+ "successful_tx_with_mutable_shared": 2108,
+ "tx_share_some_not_written": {
+  "upper": 0.704,
+  "middle": 0.6945,
+  "strict_lower": 0.0541
+ }
+}

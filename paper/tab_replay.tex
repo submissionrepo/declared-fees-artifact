@@ -1,0 +1,42 @@
+\begin{table}[t]
+\centering
+\caption{Appendix table. Replay on the second half of each sample: total time relative to every declaration firm, with the percentage of execution wasted on aborted runs in parentheses. Every declared account counts as read, and foresight and a validator told what was written abort nothing. The first row of each group gives the all-firm time over the bound set by total compute over threads.}
+\label{tab:replay}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lllll@{}}
+\toprule
+Threads & 4 & 8 & 16 & 32 \\
+\midrule
+\multicolumn{5}{@{}l}{\emph{Sample A, block order}} \\
+All firm / bound & 1.35 & 2.35 & 4.62 & 9.22 \\
+Foresight & 0.86 & 0.78 & 0.77 & 0.76 \\
+Told, with versions & 0.80 & 0.61 & 0.55 & 0.55 \\
+Menu, $\theta = 0.25$ & 0.92 (8) & 0.85 (15) & 0.83 (19) & 0.83 (20) \\
+Menu, $\theta = 0.75$ & 0.93 (13) & 0.84 (27) & 0.81 (35) & 0.81 (38) \\
+All soft & 0.98 (21) & 0.86 (42) & 0.83 (60) & 0.81 (69) \\
+\midrule
+\multicolumn{5}{@{}l}{\emph{Sample B, block order}} \\
+All firm / bound & 1.45 & 2.68 & 5.31 & 10.61 \\
+Foresight & 0.87 & 0.79 & 0.78 & 0.78 \\
+Told, with versions & 0.82 & 0.66 & 0.61 & 0.61 \\
+Menu, $\theta = 0.25$ & 0.92 (7) & 0.87 (12) & 0.86 (14) & 0.86 (15) \\
+Menu, $\theta = 0.75$ & 0.96 (15) & 0.86 (29) & 0.84 (39) & 0.84 (42) \\
+All soft & 1.00 (23) & 0.88 (42) & 0.85 (57) & 0.84 (63) \\
+\midrule
+\multicolumn{5}{@{}l}{\emph{Sample A, free order}} \\
+All firm / bound & 1.20 & 1.86 & 3.49 & 6.92 \\
+Foresight & 0.90 & 0.76 & 0.71 & 0.69 \\
+Menu, $\theta = 0.25$ & 0.96 (6) & 0.85 (12) & 0.78 (18) & 0.75 (22) \\
+Menu, $\theta = 0.75$ & 1.00 (11) & 0.89 (22) & 0.83 (34) & 0.80 (42) \\
+All soft & 1.07 (18) & 0.97 (33) & 0.86 (45) & 0.80 (55) \\
+\midrule
+\multicolumn{5}{@{}l}{\emph{Sample B, free order}} \\
+All firm / bound & 1.29 & 2.11 & 4.01 & 7.92 \\
+Foresight & 0.93 & 0.83 & 0.78 & 0.77 \\
+Menu, $\theta = 0.25$ & 0.98 (6) & 0.92 (10) & 0.86 (14) & 0.85 (16) \\
+Menu, $\theta = 0.75$ & 1.04 (13) & 0.98 (26) & 0.91 (37) & 0.89 (43) \\
+All soft & 1.09 (19) & 1.00 (32) & 0.91 (45) & 0.88 (53) \\
+\bottomrule
+\end{tabular}
+\end{table}

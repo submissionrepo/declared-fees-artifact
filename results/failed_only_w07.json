@@ -1,0 +1,16 @@
+{
+ "sample": "solana_c3_v4.jsonl+solana_c3x.jsonl.gz",
+ "blocks": 150,
+ "block": {
+  "firm": 1.0,
+  "menu": 0.7738,
+  "menu_failed": 0.7936,
+  "menu_ok": 0.974
+ },
+ "free": {
+  "firm": 1.0,
+  "menu": 0.822,
+  "menu_failed": 0.8338,
+  "menu_ok": 0.9907
+ }
+}

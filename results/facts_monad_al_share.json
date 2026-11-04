@@ -1,0 +1,21 @@
+{
+ "rpc": "https://rpc-mainnet.monadinfra.com",
+ "head": 118420245,
+ "blocks_used": 200,
+ "step": 1500,
+ "first_ts": 1793521026,
+ "last_ts": 1793430788,
+ "errors": 0,
+ "n_tx": 2715,
+ "n_with_access_list": 702,
+ "share_with_access_list": 0.2585635359116022,
+ "share_of_gas_limit_with_access_list": 0.22569427875801512,
+ "types": {
+  "0x0": 249,
+  "0x2": 2462,
+  "0x1": 4
+ },
+ "addresses_per_list_median": 1.0,
+ "keys_per_list_median": 2.0,
+ "fetched_utc": "2026-11-01T08:19:25Z"
+}

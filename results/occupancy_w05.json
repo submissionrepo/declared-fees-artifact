@@ -1,0 +1,112 @@
+{
+ "senders_holding_without_writing": 324,
+ "shares_of_hot_lock_time": {
+  "failed_never_won_once": 0.0066,
+  "failed_never_won_repeat": 0.0383,
+  "failed_sender_won_elsewhere": 0.1767,
+  "failed_sender_won_here": 0.2119,
+  "ok_route_leg": 0.0742,
+  "ok_token_unchanged": 0.0308,
+  "written": 0.4615
+ },
+ "shares_of_hot_declared_compute": {
+  "failed_never_won_once": 0.0004,
+  "failed_never_won_repeat": 0.0033,
+  "failed_sender_won_elsewhere": 0.8221,
+  "failed_sender_won_here": 0.1345,
+  "ok_route_leg": 0.0032,
+  "ok_token_unchanged": 0.0019,
+  "written": 0.0346
+ },
+ "declarations": {
+  "failed_sender_won_elsewhere": 94699,
+  "written": 3205,
+  "failed_sender_won_here": 16174,
+  "failed_never_won_repeat": 1028,
+  "ok_token_unchanged": 346,
+  "ok_route_leg": 270,
+  "failed_never_won_once": 69
+ },
+ "median_compute": {
+  "failed_sender_won_elsewhere": 1166,
+  "written": 91173,
+  "failed_sender_won_here": 1185.0,
+  "failed_never_won_repeat": 1422.0,
+  "ok_token_unchanged": 19960.0,
+  "ok_route_leg": 131041.0,
+  "failed_never_won_once": 85677
+ },
+ "priority_fee_per_mcu": {
+  "failed_sender_won_elsewhere": 1280150.2,
+  "written": 941878.7,
+  "failed_sender_won_here": 340207.9,
+  "failed_never_won_repeat": 889600.5,
+  "ok_token_unchanged": 692308.4,
+  "ok_route_leg": 2205024.5,
+  "failed_never_won_once": 1875378.9
+ },
+ "top10_share_of_unwritten_hot_time": 0.4768,
+ "top100_share_of_unwritten_hot_time": 0.9474,
+ "share_of_unwritten_hot_time_by_senders_writing_it_in_the_block": 0.0786,
+ "senders_never_won": {
+  "n_with_3plus_tx": 81,
+  "holding_hot": 39,
+  "tx": 4168,
+  "tx_per_sender_median": 12
+ },
+ "position_in_block_median": {
+  "all_unwritten": 0.5364,
+  "never_won": 0.5144
+ },
+ "sample": "solana_p03.jsonl.gz",
+ "harm_at_16_threads": {
+  "block": {
+   "top10": {
+    "over_firm": 0.9348,
+    "wasted_share": 0.0199
+   },
+   "top100": {
+    "over_firm": 0.8157,
+    "wasted_share": 0.0613
+   },
+   "never_won": {
+    "over_firm": 0.9356,
+    "wasted_share": 0.022
+   },
+   "all": {
+    "over_firm": 0.6694,
+    "wasted_share": 0.1487
+   }
+  },
+  "free": {
+   "top10": {
+    "over_firm": 0.9482,
+    "wasted_share": 0.0151
+   },
+   "top100": {
+    "over_firm": 0.8937,
+    "wasted_share": 0.044
+   },
+   "never_won": {
+    "over_firm": 0.9198,
+    "wasted_share": 0.0121
+   },
+   "all": {
+    "over_firm": 0.7166,
+    "wasted_share": 0.129
+   }
+  },
+  "senders": {
+   "top10": 10,
+   "top100": 100,
+   "never_won": 81,
+   "all": 14412
+  },
+  "replayed_tx_share": {
+   "top10": 0.2933,
+   "top100": 0.5324,
+   "never_won": 0.0471,
+   "all": 1.0
+  }
+ }
+}

@@ -1,0 +1,708 @@
+{
+ "sample": "solana_b_v4.jsonl",
+ "blocks": 60,
+ "threads=4": {
+  "block": {
+   "firm": {
+    "over_firm": 1.0,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 16566379.0,
+    "mean_time": 3501991.6666666665
+   },
+   "menu": {
+    "over_firm": 0.9212,
+    "wasted_share": 0.0717,
+    "reruns": 1153,
+    "max_time": 15559170.0,
+    "mean_time": 3226098.4833333334
+   },
+   "soft": {
+    "over_firm": 0.9973,
+    "wasted_share": 0.2294,
+    "reruns": 2557,
+    "max_time": 16112866.0,
+    "mean_time": 3492384.5166666666
+   },
+   "oracle": {
+    "over_firm": 0.8716,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 15559170.0,
+    "mean_time": 3052307.3333333335
+   },
+   "menu+softread": {
+    "over_firm": 0.9117,
+    "wasted_share": 0.1126,
+    "reruns": 1442,
+    "max_time": 15559170.0,
+    "mean_time": 3192690.8833333333
+   },
+   "perfect": {
+    "over_firm": 0.8943,
+    "wasted_share": 0.0636,
+    "reruns": 1048,
+    "max_time": 15559170.0,
+    "mean_time": 3131762.433333333
+   },
+   "firm+softread": {
+    "over_firm": 0.9515,
+    "wasted_share": 0.0553,
+    "reruns": 454,
+    "max_time": 15833611.0,
+    "mean_time": 3332081.85
+   },
+   "soft+softread": {
+    "over_firm": 0.9797,
+    "wasted_share": 0.2152,
+    "reruns": 2419,
+    "max_time": 16112866.0,
+    "mean_time": 3430774.35
+   },
+   "perfect+softread": {
+    "over_firm": 0.9015,
+    "wasted_share": 0.1107,
+    "reruns": 1424,
+    "max_time": 15559170.0,
+    "mean_time": 3156904.0
+   },
+   "menu+softread,noversions": {
+    "over_firm": 0.9282,
+    "wasted_share": 0.1284,
+    "reruns": 1620,
+    "max_time": 15559170.0,
+    "mean_time": 3250484.6
+   },
+   "told": {
+    "over_firm": 0.8231,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 15559170.0,
+    "mean_time": 2882381.9833333334
+   },
+   "occ_firm": {
+    "increase": 0.2496
+   },
+   "occ_read": {
+    "increase": 0.2495
+   },
+   "occ_softread": {
+    "increase": 0.0875
+   },
+   "occ_soft": {
+    "increase": 0.2285
+   },
+   "occ_told_firm": {
+    "increase": 0.1895
+   },
+   "occ_told_softread": {
+    "increase": 0.115
+   }
+  },
+  "free": {
+   "firm": {
+    "over_firm": 1.0,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 15559170.0,
+    "mean_time": 3115559.85
+   },
+   "menu": {
+    "over_firm": 0.985,
+    "wasted_share": 0.0646,
+    "reruns": 382,
+    "max_time": 15559170.0,
+    "mean_time": 3068731.5
+   },
+   "soft": {
+    "over_firm": 1.0928,
+    "wasted_share": 0.1897,
+    "reruns": 1168,
+    "max_time": 15939147.0,
+    "mean_time": 3404666.216666667
+   },
+   "oracle": {
+    "over_firm": 0.9281,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 15559170.0,
+    "mean_time": 2891479.5
+   },
+   "menu+softread": {
+    "over_firm": 1.0644,
+    "wasted_share": 0.1384,
+    "reruns": 659,
+    "max_time": 15559170.0,
+    "mean_time": 3316319.75
+   },
+   "perfect": {
+    "over_firm": 0.9717,
+    "wasted_share": 0.0562,
+    "reruns": 326,
+    "max_time": 15559170.0,
+    "mean_time": 3027465.95
+   },
+   "firm+softread": {
+    "over_firm": 1.083,
+    "wasted_share": 0.0841,
+    "reruns": 306,
+    "max_time": 15559170.0,
+    "mean_time": 3374001.1666666665
+   },
+   "soft+softread": {
+    "over_firm": 1.1493,
+    "wasted_share": 0.2292,
+    "reruns": 1223,
+    "max_time": 15939147.0,
+    "mean_time": 3580700.3833333333
+   },
+   "perfect+softread": {
+    "over_firm": 1.0509,
+    "wasted_share": 0.1355,
+    "reruns": 637,
+    "max_time": 15559170.0,
+    "mean_time": 3274242.2666666666
+   },
+   "occ_firm": {
+    "increase": 0.1431
+   },
+   "occ_read": {
+    "increase": 0.1431
+   },
+   "occ_softread": {
+    "increase": 0.1884
+   },
+   "occ_soft": {
+    "increase": 0.1884
+   }
+  }
+ },
+ "threads=8": {
+  "block": {
+   "firm": {
+    "over_firm": 1.0,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 16546862.0,
+    "mean_time": 3228513.9833333334
+   },
+   "menu": {
+    "over_firm": 0.8668,
+    "wasted_share": 0.1182,
+    "reruns": 2090,
+    "max_time": 15467591.0,
+    "mean_time": 2798359.933333333
+   },
+   "soft": {
+    "over_firm": 0.8803,
+    "wasted_share": 0.421,
+    "reruns": 6406,
+    "max_time": 16048499.0,
+    "mean_time": 2841991.0833333335
+   },
+   "oracle": {
+    "over_firm": 0.7947,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 15467591.0,
+    "mean_time": 2565553.65
+   },
+   "menu+softread": {
+    "over_firm": 0.8023,
+    "wasted_share": 0.2371,
+    "reruns": 3607,
+    "max_time": 15467591.0,
+    "mean_time": 2590330.466666667
+   },
+   "perfect": {
+    "over_firm": 0.8049,
+    "wasted_share": 0.1146,
+    "reruns": 2191,
+    "max_time": 15467591.0,
+    "mean_time": 2598773.95
+   },
+   "firm+softread": {
+    "over_firm": 0.8902,
+    "wasted_share": 0.1009,
+    "reruns": 793,
+    "max_time": 15733585.0,
+    "mean_time": 2873967.3833333333
+   },
+   "soft+softread": {
+    "over_firm": 0.8507,
+    "wasted_share": 0.4021,
+    "reruns": 6081,
+    "max_time": 16048499.0,
+    "mean_time": 2746505.566666667
+   },
+   "perfect+softread": {
+    "over_firm": 0.7756,
+    "wasted_share": 0.2436,
+    "reruns": 3673,
+    "max_time": 15467591.0,
+    "mean_time": 2504007.816666667
+   },
+   "menu+softread,noversions": {
+    "over_firm": 0.8363,
+    "wasted_share": 0.2622,
+    "reruns": 3878,
+    "max_time": 15467591.0,
+    "mean_time": 2700154.25
+   },
+   "told": {
+    "over_firm": 0.6603,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 15467591.0,
+    "mean_time": 2131656.433333333
+   },
+   "occ_firm": {
+    "increase": 0.3859
+   },
+   "occ_read": {
+    "increase": 0.3859
+   },
+   "occ_softread": {
+    "increase": 0.0118
+   },
+   "occ_soft": {
+    "increase": 0.3597
+   },
+   "occ_told_firm": {
+    "increase": 0.4679
+   },
+   "occ_told_softread": {
+    "increase": 0.0361
+   }
+  },
+  "free": {
+   "firm": {
+    "over_firm": 1.0,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 15467591.0,
+    "mean_time": 2546830.1666666665
+   },
+   "menu": {
+    "over_firm": 0.9162,
+    "wasted_share": 0.1029,
+    "reruns": 690,
+    "max_time": 15467591.0,
+    "mean_time": 2333527.816666667
+   },
+   "soft": {
+    "over_firm": 1.0008,
+    "wasted_share": 0.324,
+    "reruns": 2856,
+    "max_time": 15873280.0,
+    "mean_time": 2548867.55
+   },
+   "oracle": {
+    "over_firm": 0.8283,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 15467591.0,
+    "mean_time": 2109586.2
+   },
+   "menu+softread": {
+    "over_firm": 0.9925,
+    "wasted_share": 0.2047,
+    "reruns": 1249,
+    "max_time": 15467591.0,
+    "mean_time": 2527636.1166666667
+   },
+   "perfect": {
+    "over_firm": 0.8728,
+    "wasted_share": 0.1058,
+    "reruns": 697,
+    "max_time": 15467591.0,
+    "mean_time": 2222850.1166666667
+   },
+   "firm+softread": {
+    "over_firm": 1.029,
+    "wasted_share": 0.1078,
+    "reruns": 492,
+    "max_time": 15468846.0,
+    "mean_time": 2620758.1666666665
+   },
+   "soft+softread": {
+    "over_firm": 1.0575,
+    "wasted_share": 0.3621,
+    "reruns": 2614,
+    "max_time": 15873280.0,
+    "mean_time": 2693378.433333333
+   },
+   "perfect+softread": {
+    "over_firm": 0.9408,
+    "wasted_share": 0.2082,
+    "reruns": 1241,
+    "max_time": 15467591.0,
+    "mean_time": 2396177.683333333
+   },
+   "occ_firm": {
+    "increase": 0.2939
+   },
+   "occ_read": {
+    "increase": 0.2951
+   },
+   "occ_softread": {
+    "increase": 0.0422
+   },
+   "occ_soft": {
+    "increase": 0.0422
+   }
+  }
+ },
+ "threads=16": {
+  "block": {
+   "firm": {
+    "over_firm": 1.0,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 16543971.0,
+    "mean_time": 3200111.1
+   },
+   "menu": {
+    "over_firm": 0.8591,
+    "wasted_share": 0.1401,
+    "reruns": 2536,
+    "max_time": 15465528.0,
+    "mean_time": 2749373.6
+   },
+   "soft": {
+    "over_firm": 0.8489,
+    "wasted_share": 0.5671,
+    "reruns": 11366,
+    "max_time": 16019224.0,
+    "mean_time": 2716685.9
+   },
+   "oracle": {
+    "over_firm": 0.7817,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 15465528.0,
+    "mean_time": 2501537.55
+   },
+   "menu+softread": {
+    "over_firm": 0.778,
+    "wasted_share": 0.3134,
+    "reruns": 5177,
+    "max_time": 15465528.0,
+    "mean_time": 2489753.1
+   },
+   "perfect": {
+    "over_firm": 0.7952,
+    "wasted_share": 0.1404,
+    "reruns": 2833,
+    "max_time": 15465528.0,
+    "mean_time": 2544836.466666667
+   },
+   "firm+softread": {
+    "over_firm": 0.883,
+    "wasted_share": 0.1321,
+    "reruns": 1021,
+    "max_time": 15721631.0,
+    "mean_time": 2825625.316666667
+   },
+   "soft+softread": {
+    "over_firm": 0.8061,
+    "wasted_share": 0.5492,
+    "reruns": 10878,
+    "max_time": 16019224.0,
+    "mean_time": 2579691.2666666666
+   },
+   "perfect+softread": {
+    "over_firm": 0.7487,
+    "wasted_share": 0.3348,
+    "reruns": 5584,
+    "max_time": 15465528.0,
+    "mean_time": 2396025.716666667
+   },
+   "menu+softread,noversions": {
+    "over_firm": 0.8193,
+    "wasted_share": 0.3351,
+    "reruns": 5439,
+    "max_time": 15465528.0,
+    "mean_time": 2621769.6333333333
+   },
+   "told": {
+    "over_firm": 0.6146,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 15465528.0,
+    "mean_time": 1966894.8166666667
+   },
+   "occ_firm": {
+    "increase": 0.4071
+   },
+   "occ_read": {
+    "increase": 0.4071
+   },
+   "occ_softread": {
+    "increase": 0.0013
+   },
+   "occ_soft": {
+    "increase": 0.3804
+   },
+   "occ_told_firm": {
+    "increase": 0.5797
+   },
+   "occ_told_softread": {
+    "increase": 0.0021
+   }
+  },
+  "free": {
+   "firm": {
+    "over_firm": 1.0,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 15465528.0,
+    "mean_time": 2417637.25
+   },
+   "menu": {
+    "over_firm": 0.8646,
+    "wasted_share": 0.1418,
+    "reruns": 1077,
+    "max_time": 15465528.0,
+    "mean_time": 2090199.7166666666
+   },
+   "soft": {
+    "over_firm": 0.9149,
+    "wasted_share": 0.4505,
+    "reruns": 5443,
+    "max_time": 15844005.0,
+    "mean_time": 2211849.45
+   },
+   "oracle": {
+    "over_firm": 0.7829,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 15465528.0,
+    "mean_time": 1892821.8333333333
+   },
+   "menu+softread": {
+    "over_firm": 0.9089,
+    "wasted_share": 0.2588,
+    "reruns": 1854,
+    "max_time": 15465528.0,
+    "mean_time": 2197381.2666666666
+   },
+   "perfect": {
+    "over_firm": 0.7982,
+    "wasted_share": 0.1505,
+    "reruns": 1098,
+    "max_time": 15465528.0,
+    "mean_time": 1929837.7666666666
+   },
+   "firm+softread": {
+    "over_firm": 1.0067,
+    "wasted_share": 0.1194,
+    "reruns": 620,
+    "max_time": 15465528.0,
+    "mean_time": 2433862.6666666665
+   },
+   "soft+softread": {
+    "over_firm": 0.9489,
+    "wasted_share": 0.4875,
+    "reruns": 4930,
+    "max_time": 15844005.0,
+    "mean_time": 2294166.55
+   },
+   "perfect+softread": {
+    "over_firm": 0.8466,
+    "wasted_share": 0.2735,
+    "reruns": 1934,
+    "max_time": 15465528.0,
+    "mean_time": 2046735.35
+   },
+   "occ_firm": {
+    "increase": 0.4035
+   },
+   "occ_read": {
+    "increase": 0.4035
+   },
+   "occ_softread": {
+    "increase": 0.0081
+   },
+   "occ_soft": {
+    "increase": 0.0081
+   }
+  }
+ },
+ "threads=32": {
+  "block": {
+   "firm": {
+    "over_firm": 1.0,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 16543971.0,
+    "mean_time": 3196988.75
+   },
+   "menu": {
+    "over_firm": 0.8555,
+    "wasted_share": 0.1486,
+    "reruns": 2663,
+    "max_time": 15465528.0,
+    "mean_time": 2735035.8666666667
+   },
+   "soft": {
+    "over_firm": 0.8449,
+    "wasted_share": 0.6342,
+    "reruns": 15253,
+    "max_time": 16019224.0,
+    "mean_time": 2701116.1166666667
+   },
+   "oracle": {
+    "over_firm": 0.7801,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 15465528.0,
+    "mean_time": 2493989.2333333334
+   },
+   "menu+softread": {
+    "over_firm": 0.7749,
+    "wasted_share": 0.3395,
+    "reruns": 5787,
+    "max_time": 15465528.0,
+    "mean_time": 2477192.1333333333
+   },
+   "perfect": {
+    "over_firm": 0.7912,
+    "wasted_share": 0.149,
+    "reruns": 3044,
+    "max_time": 15465528.0,
+    "mean_time": 2529471.95
+   },
+   "firm+softread": {
+    "over_firm": 0.8819,
+    "wasted_share": 0.1468,
+    "reruns": 1125,
+    "max_time": 15721631.0,
+    "mean_time": 2819408.783333333
+   },
+   "soft+softread": {
+    "over_firm": 0.8013,
+    "wasted_share": 0.6238,
+    "reruns": 14948,
+    "max_time": 16019224.0,
+    "mean_time": 2561688.1333333333
+   },
+   "perfect+softread": {
+    "over_firm": 0.7438,
+    "wasted_share": 0.371,
+    "reruns": 6464,
+    "max_time": 15465528.0,
+    "mean_time": 2377919.716666667
+   },
+   "menu+softread,noversions": {
+    "over_firm": 0.8146,
+    "wasted_share": 0.3569,
+    "reruns": 5957,
+    "max_time": 15465528.0,
+    "mean_time": 2604214.6166666667
+   },
+   "told": {
+    "over_firm": 0.6098,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 15465528.0,
+    "mean_time": 1949441.2
+   },
+   "occ_firm": {
+    "increase": 0.4144
+   },
+   "occ_read": {
+    "increase": 0.4144
+   },
+   "occ_softread": {
+    "increase": 0.0001
+   },
+   "occ_soft": {
+    "increase": 0.3875
+   },
+   "occ_told_firm": {
+    "increase": 0.5934
+   },
+   "occ_told_softread": {
+    "increase": 0.0
+   }
+  },
+  "free": {
+   "firm": {
+    "over_firm": 1.0,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 15465528.0,
+    "mean_time": 2387528.316666667
+   },
+   "menu": {
+    "over_firm": 0.8542,
+    "wasted_share": 0.1647,
+    "reruns": 1448,
+    "max_time": 15465528.0,
+    "mean_time": 2039433.8166666667
+   },
+   "soft": {
+    "over_firm": 0.8807,
+    "wasted_share": 0.5308,
+    "reruns": 8383,
+    "max_time": 15844005.0,
+    "mean_time": 2102742.8666666667
+   },
+   "oracle": {
+    "over_firm": 0.7727,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 15465528.0,
+    "mean_time": 1844818.5166666666
+   },
+   "menu+softread": {
+    "over_firm": 0.8755,
+    "wasted_share": 0.2729,
+    "reruns": 2268,
+    "max_time": 15465528.0,
+    "mean_time": 2090336.6166666667
+   },
+   "perfect": {
+    "over_firm": 0.7893,
+    "wasted_share": 0.1844,
+    "reruns": 1398,
+    "max_time": 15465528.0,
+    "mean_time": 1884481.4166666667
+   },
+   "firm+softread": {
+    "over_firm": 0.9987,
+    "wasted_share": 0.1264,
+    "reruns": 661,
+    "max_time": 15465528.0,
+    "mean_time": 2384425.7666666666
+   },
+   "soft+softread": {
+    "over_firm": 0.8871,
+    "wasted_share": 0.5702,
+    "reruns": 7788,
+    "max_time": 15844005.0,
+    "mean_time": 2117905.6333333333
+   },
+   "perfect+softread": {
+    "over_firm": 0.8255,
+    "wasted_share": 0.3005,
+    "reruns": 2327,
+    "max_time": 15465528.0,
+    "mean_time": 1970794.2833333334
+   },
+   "occ_firm": {
+    "increase": 0.43
+   },
+   "occ_read": {
+    "increase": 0.43
+   },
+   "occ_softread": {
+    "increase": -0.0007
+   },
+   "occ_soft": {
+    "increase": -0.0007
+   }
+  }
+ }
+}

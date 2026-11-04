@@ -1,0 +1,16 @@
+{
+ "sample": "solana_m02.jsonl.gz",
+ "blocks": 150,
+ "block": {
+  "firm": 1.0,
+  "menu": 0.8345,
+  "menu_failed": 0.85,
+  "menu_ok": 0.9822
+ },
+ "free": {
+  "firm": 1.0,
+  "menu": 0.8676,
+  "menu_failed": 0.8891,
+  "menu_ok": 0.9689
+ }
+}

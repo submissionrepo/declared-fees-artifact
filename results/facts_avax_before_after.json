@@ -1,0 +1,76 @@
+{
+ "rpc": "https://api.avax.network/ext/bc/C/rpc",
+ "head": 99132198,
+ "windows": {
+  "before": [
+   [
+    2026,
+    8,
+    25
+   ],
+   [
+    2026,
+    9,
+    22
+   ]
+  ],
+  "after": [
+   [
+    2026,
+    10,
+    4
+   ],
+   [
+    2026,
+    11,
+    1
+   ]
+  ]
+ },
+ "blocks_per_window": 600,
+ "txs_per_block": 8,
+ "before": {
+  "txs": 4147,
+  "senders": 1192,
+  "limit_median": 100000,
+  "share_used_at_or_below_half": 0.4037,
+  "share_failed": 0.0948,
+  "ratio_gas_over_limit_median": 0.5489
+ },
+ "after": {
+  "txs": 1610,
+  "senders": 802,
+  "limit_median": 208279.5,
+  "share_used_at_or_below_half": 0.3043,
+  "share_failed": 0.0944,
+  "ratio_gas_over_limit_median": 0.6337
+ },
+ "sender_target_function": {
+  "pairs": 34,
+  "txs_before": 299,
+  "txs_after": 277,
+  "limit_ratio_after_over_before_median": 0.82,
+  "share_pairs_limit_fell": 0.5,
+  "share_pairs_limit_rose": 0.1176,
+  "at_half_share_before_mean": 0.6961,
+  "at_half_share_after_mean": 0.4991,
+  "exposed_pairs": 24,
+  "exposed_limit_ratio_median": 0.4628,
+  "exposed_at_half_share_after_mean": 0.6607,
+  "unexposed_limit_ratio_median": 1.0
+ },
+ "target_function": {
+  "pairs": 52,
+  "txs_before": 691,
+  "txs_after": 638,
+  "limit_ratio_after_over_before_median": 0.9721,
+  "share_pairs_limit_fell": 0.5192,
+  "share_pairs_limit_rose": 0.1923,
+  "at_half_share_before_mean": 0.5603,
+  "at_half_share_after_mean": 0.4107,
+  "exposed_pairs": 29,
+  "exposed_limit_ratio_median": 0.5717,
+  "exposed_at_half_share_after_mean": 0.633,
+  "unexposed_limit_ratio_median": 1.0
+ }
+}

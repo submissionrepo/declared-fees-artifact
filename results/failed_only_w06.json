@@ -1,0 +1,16 @@
+{
+ "sample": "solana_p04.jsonl.gz",
+ "blocks": 150,
+ "block": {
+  "firm": 1.0,
+  "menu": 0.8133,
+  "menu_failed": 0.8225,
+  "menu_ok": 0.9835
+ },
+ "free": {
+  "firm": 1.0,
+  "menu": 0.8358,
+  "menu_failed": 0.8313,
+  "menu_ok": 0.9788
+ }
+}

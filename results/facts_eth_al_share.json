@@ -1,0 +1,22 @@
+{
+ "rpc": "https://ethereum-rpc.publicnode.com",
+ "head": 26318726,
+ "blocks_used": 30,
+ "step": 200,
+ "first_ts": 1793521607,
+ "last_ts": 1793451779,
+ "errors": 0,
+ "n_tx": 5558,
+ "n_with_access_list": 67,
+ "share_with_access_list": 0.012054695933789134,
+ "share_of_gas_limit_with_access_list": 0.01932295538819535,
+ "types": {
+  "0x0": 721,
+  "0x2": 4705,
+  "0x3": 53,
+  "0x4": 79
+ },
+ "addresses_per_list_median": 8,
+ "keys_per_list_median": 30,
+ "fetched_utc": "2026-11-01T08:29:43Z"
+}

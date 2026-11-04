@@ -1,0 +1,36 @@
+{
+ "monad": {
+  "txs": 1679,
+  "with_estimate": 1520,
+  "estimate_over_limit_p10": 0.5241,
+  "p50": 0.8696,
+  "p90": 1.0153,
+  "aggregate_estimate_over_limit": 0.7081,
+  "share_of_fee_paid_for_gas_above_estimate_lower_bound": 0.3477,
+  "total_fee_mon": 163.3735,
+  "fee_above_estimate_mon_lower_bound": 56.799595,
+  "share_estimate_above_limit": 0.123,
+  "share_limit_near_1p25_estimate": 0.0191
+ },
+ "ethereum": {
+  "txs": 10225,
+  "used_over_limit_p10": 0.2196,
+  "p50": 0.6874,
+  "p90": 1.0,
+  "aggregate_used_over_limit": 0.4238,
+  "share_with_access_list": 0.0147
+ },
+ "ethereum_access_lists": {
+  "txs_checked": 150,
+  "txs_err": 0,
+  "declared_addresses": 1679,
+  "declared_keys": 7323,
+  "declared_unused_address_share": 0.268,
+  "declared_unused_key_share": 0.3197,
+  "touched_undeclared_addresses": 115,
+  "touched_undeclared_keys": 233,
+  "share_lists_not_exact": 0.7667,
+  "net_gas_saved_by_lists_total": -4906800,
+  "share_lists_with_net_loss": 0.44
+ }
+}

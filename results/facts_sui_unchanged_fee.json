@@ -1,0 +1,48 @@
+{
+ "url": "https://graphql.mainnet.sui.io/graphql",
+ "epoch": {
+  "epochId": 1298,
+  "referenceGasPrice": "100"
+ },
+ "protocol_version": 139,
+ "checkpoint_latest_minus_20": 340434963,
+ "n_checkpoints_requested": 40,
+ "spacing": 5000,
+ "timestamps_first_last": [
+  "2026-11-01T08:44:16.329Z",
+  "2026-10-31T19:34:29.974Z"
+ ],
+ "errors": 0,
+ "n_programmable": 681,
+ "n_success_with_mutable_shared": 595,
+ "n_with_unchanged_mutable_shared": 412,
+ "mutable_shared_declared": 1425,
+ "mutable_shared_unchanged": 632,
+ "object_storage_rebate_mist_p10_50_90": [
+  1915200,
+  2226800,
+  8785600
+ ],
+ "unchanged_object_fee_mist_p10_50_90": [
+  191.5199999999789,
+  222.67999999997548,
+  878.5599999999032
+ ],
+ "fee_over_computation_p10_50_90": [
+  0.0017631999999998059,
+  0.0032223999999996455,
+  0.010791999999998811
+ ],
+ "computation_cost_mist_p10_50_90": [
+  100000,
+  100000,
+  200000
+ ],
+ "nonrefundable_over_computation_p50": 0.02446,
+ "gas_price_p10_50_90": [
+  100,
+  100,
+  146
+ ],
+ "fetched_utc": "2026-11-01T08:45:46Z"
+}

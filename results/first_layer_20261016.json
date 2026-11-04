@@ -1,0 +1,58 @@
+{
+ "ok": {
+  "D1": true,
+  "D2": true,
+  "D3": true,
+  "D4": true,
+  "D5": true
+ },
+ "results": {
+  "D1": {
+   "cases": 45,
+   "failures": 0,
+   "alpha_min_table": [
+    [
+     "6/5",
+     "3/20",
+     false
+    ],
+    [
+     "5",
+     "5/8",
+     false
+    ],
+    [
+     "16",
+     "2",
+     true
+    ]
+   ]
+  },
+  "D2": {
+   "cases": 1240,
+   "with_positive_use": 1224,
+   "failures": 0,
+   "first_failures": []
+  },
+  "D3": {
+   "solution": {
+    "a0": "-c*rho + c",
+    "a1": "0",
+    "b0": "0",
+    "b1": "k"
+   }
+  },
+  "D4": {
+   "cases": 528,
+   "failures": 0,
+   "wadhwa_cases": 363,
+   "wadhwa_failures": 0
+  },
+  "D5": {
+   "sufficiency_cases": 840,
+   "sufficiency_failures": 0,
+   "necessity_points": 152,
+   "necessity_counterexamples_found": 152
+  }
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "w01": "solana_p01.jsonl.gz",
+ "w02": "solana_c1_v4.jsonl+solana_c1x.jsonl.gz",
+ "w03": "solana_c2_v4.jsonl+solana_c2x.jsonl.gz",
+ "w04": "solana_p02.jsonl.gz",
+ "w05": "solana_p03.jsonl.gz",
+ "w06": "solana_p04.jsonl.gz",
+ "w07": "solana_c3_v4.jsonl+solana_c3x.jsonl.gz",
+ "w08": "solana_p05.jsonl.gz",
+ "w09": "solana_p06.jsonl.gz",
+ "w10": "solana_p07.jsonl.gz",
+ "w11": "solana_p08.jsonl.gz",
+ "m01": "solana_m04.jsonl.gz",
+ "m02": "solana_m02.jsonl.gz",
+ "m03": "solana_m03.jsonl.gz",
+ "m04": "solana_m01.jsonl.gz"
+}

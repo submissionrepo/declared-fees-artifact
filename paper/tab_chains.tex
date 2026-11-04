@@ -1,0 +1,22 @@
+\begin{table*}[t]
+\centering
+\caption{What deployed and proposed rules ask for and what they charge, as of November 1, 2026. $\rho$ is the share of unused reserved capacity that can be reclaimed; $\alpha$ is the share of the price charged on the declared cap, and for OW-TFM on an unused object.}
+\label{tab:chains}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}l>{\raggedright\arraybackslash}p{2.8cm}>{\raggedright\arraybackslash}p{4.2cm}>{\raggedright\arraybackslash}p{3.2cm}>{\raggedright\arraybackslash}p{2.5cm}@{}}
+\toprule
+Rule & Declared in advance & Charge when unused & Reservation & Our result \\
+\midrule
+Solana~\cite{agave,simd0385} & Accounts, writable flag; compute limit & Object: no fee. Compute: legacy and v0 priority fee on the limit, v1 lump sum & Write lock on each writable account; budgets refilled after execution, on all declared accounts alike & Theorems~\ref{thm:oneclass}(b) and~\ref{thm:hold}; Proposition~\ref{prop:caps} \\
+Sui~\cite{suidocs_lfm,suicode} & Input objects, shared ones mutable or read-only & Object: non-refundable storage share only. Compute: as used & Congestion budget advanced on each mutable object before execution & Theorem~\ref{thm:oneclass}(b) \\
+Stellar Soroban~\cite{cap0063,stellarfees} & Read-write footprint; resource limits & What is declared, with few refunds & Parallel clusters from the footprint; limits on declared instructions & Theorem~\ref{thm:oneclass}(a) \\
+Monad~\cite{monaddocs_gas} & Gas limit; optional access list & Gas limit in full ($\alpha = 1$) & Block space and price on the limit ($\rho = 0$) & Proposition~\ref{prop:caps}: consistent \\
+Avalanche C-Chain~\cite{acp194} & Gas limit & $\max\{\text{used}, \text{limit}/2\}$ & Admission on the limit; execution clock and price on the charge & Section~\ref{sec:caps} \\
+Ethereum, today~\cite{eip2929,eip2930} & Gas limit; optional access list & Gas as used ($\alpha = 0$); list entry 2,400 or 1,900, and a listed use costs 2,500 or 2,000 less & Producer has executed ($\rho = 1$) & Propositions~\ref{prop:threshold} and~\ref{prop:caps}: $q^\star = \listThresholdAddr$, $\listThresholdKey$ \\
+Ethereum, Glamsterdam~\cite{eip8038,eip7981,eip7928} & As above; producer publishes touched sets & List entry 2,900 or 2,000, plus 1,280 or 2,048 of data & As above & Proposition~\ref{prop:threshold}: $q^\star > 1$ \\
+OW-TFM~\cite{wadhwa2026perils} (proposed) & Objects, including contingent ones & $\alpha p_o t$ & Declared sets count toward price & Theorems~\ref{thm:oneclass}(c) and~\ref{thm:shill} \\
+Menu $M$ (this paper) & Objects, each firm or soft; caps with $\alpha = 1-\rho$ & Firm: $\cp_o$ when unused or read-only. Soft: $k_o$ when used, $u_o$ when unused or read-only & Firm: lock. Soft: none. Price counts what is paid & Theorems~\ref{thm:rule} and~\ref{thm:hold} \\
+\bottomrule
+\end{tabular}
+\end{table*}

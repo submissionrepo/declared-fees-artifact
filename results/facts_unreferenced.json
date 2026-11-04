@@ -1,0 +1,9 @@
+{
+ "blocks": 80,
+ "txs": 28712,
+ "writable_nonsigner": 271927,
+ "writable_unreferenced": 3,
+ "txs_with_unreferenced_writable": 3,
+ "read_only": 360981,
+ "read_only_unreferenced": 957
+}

@@ -1,0 +1,197 @@
+{
+ "sample": "solana_p01.jsonl.gz",
+ "blocks": 150,
+ "fees": {
+  "priority_per_block_lamports": 7313448.453333333,
+  "fee_per_block_lamports": 11782015.12,
+  "priority_per_block_median": 4204410.0,
+  "tx_per_block": 882.8733333333333
+ },
+ "tips": {
+  "tips_per_block_lamports": 611626.66,
+  "share_of_tx": 0.0105,
+  "tips_over_priority": 0.0836,
+  "tips_in_failed_tx": 0,
+  "tip_share_of_payment": 0.0772
+ },
+ "bill": {
+  "writers_lamports_per_mcu": 596983.3,
+  "nonwriters_lamports_per_mcu": 1864694.0,
+  "writers_with_tips_lamports_per_mcu": 605608.0,
+  "five_at_writers_price_lamports": 4178883.0,
+  "five_at_nonwriters_price_lamports": 13052858.0,
+  "one_at_nonwriters_price_lamports": 2610572.0,
+  "five_at_writers_over_block_priority": 0.5714,
+  "five_at_nonwriters_over_block_priority": 1.7848
+ },
+ "use_over_budget": {
+  "pairs": 750,
+  "firm": {
+   "median": 0.0724,
+   "p90": 0.1284,
+   "max": 0.4212,
+   "share_at_0.05": 0.776,
+   "share_at_0.1": 0.22,
+   "share_at_0.25": 0.0067,
+   "share_at_0.5": 0.0,
+   "share_at_1.0": 0.0,
+   "blocks_top_median": 0.1092,
+   "blocks_top_max": 0.4212
+  },
+  "classes": {
+   "median": 0.0,
+   "p90": 0.006,
+   "max": 0.1743,
+   "share_at_0.05": 0.0067,
+   "share_at_0.1": 0.0053,
+   "share_at_0.25": 0.0,
+   "share_at_0.5": 0.0,
+   "share_at_1.0": 0.0,
+   "blocks_top_median": 0.0446,
+   "blocks_top_max": 0.2099
+  }
+ },
+ "bid_by_place": {
+  "0": 0.029342,
+  "1": 0.001361,
+  "2": 0.001361,
+  "3": 0.001361,
+  "4": 0.000966,
+  "5": 0.001361,
+  "6": 0.001361,
+  "7": 0.001361,
+  "8": 0.001361,
+  "9": 0.000966
+ },
+ "serial_over_block_time": {
+  "median": 0.3739,
+  "p10": 0.2576,
+  "p90": 0.6408,
+  "share_within_10pct": 0.0267,
+  "slowest_quarter_median": 0.451
+ },
+ "places": {
+  "block": {
+   "0.0": {
+    "increase": 0.5015,
+    "bill_at_local_bid_lamports": 16229288.0,
+    "bill_over_block_priority": 2.2191,
+    "bill_median_lamports": 3544347.0,
+    "bill_median_over_block_priority": 0.7191
+   },
+   "0.25": {
+    "increase": 0.5634,
+    "bill_at_local_bid_lamports": 1357543.0,
+    "bill_over_block_priority": 0.1856,
+    "bill_median_lamports": 9524.0,
+    "bill_median_over_block_priority": 0.0021
+   },
+   "0.5": {
+    "increase": 0.5389,
+    "bill_at_local_bid_lamports": 927520.0,
+    "bill_over_block_priority": 0.1268,
+    "bill_median_lamports": 9524.0,
+    "bill_median_over_block_priority": 0.0021
+   },
+   "0.75": {
+    "increase": 0.5468,
+    "bill_at_local_bid_lamports": 242784.0,
+    "bill_over_block_priority": 0.0332,
+    "bill_median_lamports": 9524.0,
+    "bill_median_over_block_priority": 0.0022
+   }
+  },
+  "free": {
+   "0.0": {
+    "increase": 0.3569,
+    "bill_at_local_bid_lamports": 16229288.0,
+    "bill_over_block_priority": 2.2191,
+    "bill_median_lamports": 3544347.0,
+    "bill_median_over_block_priority": 0.7191
+   },
+   "0.25": {
+    "increase": 0.3928,
+    "bill_at_local_bid_lamports": 1357543.0,
+    "bill_over_block_priority": 0.1856,
+    "bill_median_lamports": 9524.0,
+    "bill_median_over_block_priority": 0.0021
+   },
+   "0.5": {
+    "increase": 0.3993,
+    "bill_at_local_bid_lamports": 927520.0,
+    "bill_over_block_priority": 0.1268,
+    "bill_median_lamports": 9524.0,
+    "bill_median_over_block_priority": 0.0021
+   },
+   "0.75": {
+    "increase": 0.4127,
+    "bill_at_local_bid_lamports": 242784.0,
+    "bill_over_block_priority": 0.0332,
+    "bill_median_lamports": 9524.0,
+    "bill_median_over_block_priority": 0.0022
+   }
+  }
+ },
+ "price_path": {
+  "0.05": {
+   "share_of_blocks_above_target": 0.0707,
+   "without_hold": {
+    "end_median": 1.0,
+    "peak_max": 1.312,
+    "mean_price_median": 1.0014,
+    "mean_price_max": 1.044
+   },
+   "with_hold": {
+    "end_median": 2956029.4344,
+    "peak_max": 263961045.736,
+    "mean_price_median": 156434.0329,
+    "mean_price_max": 11772195.515
+   }
+  },
+  "0.1": {
+   "share_of_blocks_above_target": 0.0107,
+   "without_hold": {
+    "end_median": 1.0,
+    "peak_max": 1.085,
+    "mean_price_median": 1.0,
+    "mean_price_max": 1.001
+   },
+   "with_hold": {
+    "end_median": 1.0193,
+    "peak_max": 2.989,
+    "mean_price_median": 1.0205,
+    "mean_price_max": 1.891
+   }
+  },
+  "0.25": {
+   "share_of_blocks_above_target": 0.0,
+   "without_hold": {
+    "end_median": 1.0,
+    "peak_max": 1.0,
+    "mean_price_median": 1.0,
+    "mean_price_max": 1.0
+   },
+   "with_hold": {
+    "end_median": 1.0,
+    "peak_max": 1.0,
+    "mean_price_median": 1.0,
+    "mean_price_max": 1.0
+   }
+  },
+  "0.5": {
+   "share_of_blocks_above_target": 0.0,
+   "without_hold": {
+    "end_median": 1.0,
+    "peak_max": 1.0,
+    "mean_price_median": 1.0,
+    "mean_price_max": 1.0
+   },
+   "with_hold": {
+    "end_median": 1.0,
+    "peak_max": 1.0,
+    "mean_price_median": 1.0,
+    "mean_price_max": 1.0
+   }
+  }
+ }
+}

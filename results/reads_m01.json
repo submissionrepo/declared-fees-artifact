@@ -1,0 +1,230 @@
+{
+ "sample": "solana_m04.jsonl.gz",
+ "blocks": 150,
+ "threads=4": {
+  "block": {
+   "firm": {
+    "over_firm": 1.0,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 24601709.0,
+    "mean_time": 4738991.64
+   },
+   "menu": {
+    "over_firm": 0.886,
+    "wasted_share": 0.0863,
+    "reruns": 2207,
+    "max_time": 17738408.0,
+    "mean_time": 4198823.6466666665
+   },
+   "soft": {
+    "over_firm": 0.9414,
+    "wasted_share": 0.206,
+    "reruns": 5525,
+    "max_time": 17195686.0,
+    "mean_time": 4461098.12
+   },
+   "oracle": {
+    "over_firm": 0.8259,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 16267657.0,
+    "mean_time": 3913744.033333333
+   },
+   "menu+softread": {
+    "over_firm": 0.8716,
+    "wasted_share": 0.1161,
+    "reruns": 2840,
+    "max_time": 16652706.0,
+    "mean_time": 4130325.3933333335
+   },
+   "told": {
+    "over_firm": 0.775,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 14907047.0,
+    "mean_time": 3672509.3466666667
+   },
+   "occ_firm": {
+    "increase": 0.0744
+   },
+   "occ_read": {
+    "increase": 0.0744
+   },
+   "occ_softread": {
+    "increase": 0.0728
+   },
+   "occ_soft": {
+    "increase": 0.0743
+   },
+   "occ_told_firm": {
+    "increase": 0.093
+   },
+   "occ_told_softread": {
+    "increase": 0.0907
+   }
+  },
+  "free": {
+   "firm": {
+    "over_firm": 1.0,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 19948225.0,
+    "mean_time": 4241806.26
+   },
+   "menu": {
+    "over_firm": 0.9106,
+    "wasted_share": 0.0725,
+    "reruns": 970,
+    "max_time": 15411454.0,
+    "mean_time": 3862421.046666667
+   },
+   "soft": {
+    "over_firm": 1.0067,
+    "wasted_share": 0.1809,
+    "reruns": 3068,
+    "max_time": 15098255.0,
+    "mean_time": 4270044.033333333
+   },
+   "oracle": {
+    "over_firm": 0.8631,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 15214239.0,
+    "mean_time": 3660922.94
+   },
+   "menu+softread": {
+    "over_firm": 0.97,
+    "wasted_share": 0.1339,
+    "reruns": 1724,
+    "max_time": 15667410.0,
+    "mean_time": 4114466.8066666666
+   },
+   "occ_firm": {
+    "increase": 0.0848
+   },
+   "occ_read": {
+    "increase": 0.0848
+   },
+   "occ_softread": {
+    "increase": 0.1017
+   },
+   "occ_soft": {
+    "increase": 0.1017
+   }
+  }
+ },
+ "threads=16": {
+  "block": {
+   "firm": {
+    "over_firm": 1.0,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 24300088.0,
+    "mean_time": 4200745.206666667
+   },
+   "menu": {
+    "over_firm": 0.8001,
+    "wasted_share": 0.1747,
+    "reruns": 5962,
+    "max_time": 17117518.0,
+    "mean_time": 3360941.96
+   },
+   "soft": {
+    "over_firm": 0.789,
+    "wasted_share": 0.5382,
+    "reruns": 23856,
+    "max_time": 16668615.0,
+    "mean_time": 3314514.026666667
+   },
+   "oracle": {
+    "over_firm": 0.7072,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 15577994.0,
+    "mean_time": 2970959.8
+   },
+   "menu+softread": {
+    "over_firm": 0.7239,
+    "wasted_share": 0.3154,
+    "reruns": 10278,
+    "max_time": 16284023.0,
+    "mean_time": 3040792.4133333336
+   },
+   "told": {
+    "over_firm": 0.5578,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 14746264.0,
+    "mean_time": 2343192.966666667
+   },
+   "occ_firm": {
+    "increase": 0.0169
+   },
+   "occ_read": {
+    "increase": 0.0169
+   },
+   "occ_softread": {
+    "increase": -0.0006
+   },
+   "occ_soft": {
+    "increase": 0.0147
+   },
+   "occ_told_firm": {
+    "increase": 0.0452
+   },
+   "occ_told_softread": {
+    "increase": 0.0038
+   }
+  },
+  "free": {
+   "firm": {
+    "over_firm": 1.0,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 19470911.0,
+    "mean_time": 3219484.566666667
+   },
+   "menu": {
+    "over_firm": 0.7729,
+    "wasted_share": 0.1651,
+    "reruns": 2653,
+    "max_time": 15082384.0,
+    "mean_time": 2488311.72
+   },
+   "soft": {
+    "over_firm": 0.8496,
+    "wasted_share": 0.4233,
+    "reruns": 12118,
+    "max_time": 14721275.0,
+    "mean_time": 2735411.946666667
+   },
+   "oracle": {
+    "over_firm": 0.7008,
+    "wasted_share": 0.0,
+    "reruns": 0,
+    "max_time": 15098610.0,
+    "mean_time": 2256294.7066666665
+   },
+   "menu+softread": {
+    "over_firm": 0.8087,
+    "wasted_share": 0.2805,
+    "reruns": 4961,
+    "max_time": 15299783.0,
+    "mean_time": 2603577.42
+   },
+   "occ_firm": {
+    "increase": 0.04
+   },
+   "occ_read": {
+    "increase": 0.04
+   },
+   "occ_softread": {
+    "increase": 0.0065
+   },
+   "occ_soft": {
+    "increase": 0.0065
+   }
+  }
+ }
+}

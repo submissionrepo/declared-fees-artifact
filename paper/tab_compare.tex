@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering
+\caption{Rules against the goals of Definition~\ref{def:goals}.}
+\label{tab:compare}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lccccll@{}}
+\toprule
+Rule & \begin{tabular}{@{}c@{}}Drop\\floor\end{tabular} & \begin{tabular}{@{}c@{}}Efficient\\placement\end{tabular} & \begin{tabular}{@{}c@{}}Cost\\matching\end{tabular} & \begin{tabular}{@{}c@{}}Occupancy\\at cost\end{tabular} & \begin{tabular}{@{}l@{}}Ordering\\neutrality\end{tabular} & \begin{tabular}{@{}l@{}}Shill resistance\end{tabular} \\
+\midrule
+One class, no fee (Solana, Sui) & 0 & no & no & no & yes & no object prices \\
+One class, $f_n = \alpha p_o t$ (OW-TFM) & $\phi(f_n)$ & no & at $f_n = \cp_o$ & at $f_n \ge \cp_o$ & if $f_n + \sigma \rho p_o t \le \pi p_o t$ & $(1-\gamma)\alpha \ge \gamma\eta\pi_o$ \\
+All soft, premium on use, charge $u_o$ & $\phi(u_o)$ & no & at $u_o = r_o$ & at $u_o = r_o$ & yes & $\gamma \le 1/(1+\eta\pi_o)$, our count \\
+Menu $M$, pay what you count & $\phi(u_o)$ & at $u_o = r_o$ & at $u_o = r_o$ & \begin{tabular}{@{}c@{}}locks; soft at\\$u_o = r_o$\end{tabular} & yes & $\gamma \le 1/(1+\eta\pi_o)$ \\
+\bottomrule
+\end{tabular}
+\par\smallskip\parbox{\textwidth}{\scriptsize Drop floor: the lowest probability of use at which an object is declared, $\phi(u) = u/(u + x + \bar\kappa)$ at a charge $u$ on non-use (Theorem~\ref{thm:floor}). The last column is for the setting of Theorem~\ref{thm:shill}. The first three rows cover writable declarations, and the last covers shared locks as well. Sui's dynamic fields are not declared at all (Section~\ref{sec:chains}).}
+\end{table*}

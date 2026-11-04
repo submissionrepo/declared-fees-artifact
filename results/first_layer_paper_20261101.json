@@ -1,0 +1,137 @@
+{
+ "ok": {
+  "P1": true,
+  "P2": true,
+  "P2b": true,
+  "P3": true,
+  "P4": true,
+  "P5P6": true,
+  "P7": true,
+  "P8": true,
+  "P9": true,
+  "P10": true,
+  "P11": true,
+  "P12": true,
+  "P13": true,
+  "P14": true,
+  "P15": true,
+  "P16": true,
+  "P17": true
+ },
+ "results": {
+  "P1": {
+   "threshold_cases": 324,
+   "threshold_failures": 0,
+   "placement_cases": 900,
+   "placement_failures": 0
+  },
+  "P2": {
+   "cases": 2480,
+   "strict_margin_cases": 1240,
+   "failures": 0,
+   "first": []
+  },
+  "P2b": {
+   "soft_against_omit_cases": 3998,
+   "soft_against_omit_failures": 0,
+   "split_cases": 32000,
+   "split_failures": 0,
+   "threshold_cases": 4000,
+   "threshold_failures": 0
+  },
+  "P3": {
+   "cases": 324,
+   "failures": 0
+  },
+  "P4": {
+   "stale_cases": 2268,
+   "stale_failures": 0,
+   "bound_attained_cases": 69,
+   "estimation_cases": 588,
+   "estimation_failures": 0,
+   "same_side_failures": 0
+  },
+  "P5": {
+   "identity": "unit occupancy price = pi p"
+  },
+  "P6": {
+   "identity": "firm, burned: gamma p t (pi - s rho); kept: pi p t - (1-rho) pi p t - s rho p t = rho p t (pi - s); soft: gamma p t (pi - s)",
+   "cases": 75,
+   "failures": 0
+  },
+  "P7": {
+   "fixed_point": 2,
+   "slope": "-4/3",
+   "direct_distance_grows": true,
+   "two_cycle_bracket": true,
+   "theta_1_20_from_10_200_steps_within_1e-3": true
+  },
+  "P8": {
+   "revenue_identity": "d revenue / d w = gamma eta pi_o p",
+   "cases": 1584,
+   "failures": 0
+  },
+  "P9": {
+   "identity": "dU - dS = (c-p) + y (p(1-alpha) - c rho)",
+   "points": 152,
+   "instance_found": 152
+  },
+  "P10": {
+   "EIP-2930 address": "24/25",
+   "EIP-2930 key": "19/20",
+   "EIP-8038 address": "1",
+   "EIP-8038 key": "1",
+   "EIP-8038+7981 address": "209/145",
+   "EIP-8038+7981 key": "253/125"
+  },
+  "P11": {
+   "identity": "on B - on A = (1-rho) p t (gamma' pi - gamma sigma) at equal prices",
+   "cases": 720,
+   "failures": 0
+  },
+  "P12": {
+   "matching": "b0 = r, b1 = k",
+   "threshold_cases": 369,
+   "failures": 0
+  },
+  "P13": {
+   "drop_cases": 115431,
+   "drop_failures": 0,
+   "unpaid_cases": 21375,
+   "unpaid_failures": 0,
+   "trade_cases": 18897,
+   "trade_failures": 0
+  },
+  "P14": {
+   "identities": "rank - last; firm - soft last",
+   "racer_cases": 324,
+   "racer_failures": 0
+  },
+  "P15": {
+   "route_identity": "on B - on A = gamma_u a0 + gamma_k k - gamma sigma (1 - rho) p t",
+   "cases": 60000,
+   "rules_with_all_goals": 21,
+   "failures": 0
+  },
+  "P16": {
+   "hold_cases": 108,
+   "hold_failures": 0,
+   "path_cases": 43200,
+   "path_failures": 0,
+   "budget_cases": 600,
+   "budget_failures": 0,
+   "read_cases": 27,
+   "read_failures": 0
+  },
+  "P17": {
+   "hold_cases": 162,
+   "hold_failures": 0,
+   "party_cases": 26991,
+   "party_failures": 0,
+   "class_cases": 2999,
+   "class_failures": 0,
+   "rank_cases": 4032,
+   "rank_failures": 0
+  }
+ }
+}
