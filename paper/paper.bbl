@@ -134,10 +134,6 @@ B.~Watt, ``{SIMD-0525}: Reduce slot times,'' Solana Improvement Documents,
 {Monad Documentation}, ``Parallel execution,''
   \url{https://docs.monad.xyz/monad-arch/execution/parallel-execution}.
 
-\bibitem{monaddocs_opcode}
-------, ``Opcode pricing,''
-  \url{https://docs.monad.xyz/developer-essentials/opcode-pricing}.
-
 \bibitem{helicon}
 {Avalanche Builder Hub}, ``Helicon: Improved staking economics and continuous
   execution,'' \url{https://build.avax.network/blog/helicon-upgrade}, Sep.

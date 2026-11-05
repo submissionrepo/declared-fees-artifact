@@ -16,14 +16,17 @@
   "P14": true,
   "P15": true,
   "P16": true,
-  "P17": true
+  "P17": true,
+  "P18": true
  },
  "results": {
   "P1": {
-   "threshold_cases": 324,
+   "threshold_cases": 648,
    "threshold_failures": 0,
-   "placement_cases": 900,
-   "placement_failures": 0
+   "placement_cases": 675,
+   "placement_failures": 0,
+   "endpoint_cases": 12,
+   "endpoint_failures": 0
   },
   "P2": {
    "cases": 2480,
@@ -37,11 +40,16 @@
    "split_cases": 32000,
    "split_failures": 0,
    "threshold_cases": 4000,
-   "threshold_failures": 0
+   "threshold_failures": 0,
+   "read_only_cases": 8000,
+   "read_only_failures": 0
   },
   "P3": {
    "cases": 324,
-   "failures": 0
+   "failures": 0,
+   "unserved_route": "complete -2, omit 0",
+   "read_only_cases": 1296,
+   "read_only_failures": 0
   },
   "P4": {
    "stale_cases": 2268,
@@ -69,7 +77,9 @@
   "P8": {
    "revenue_identity": "d revenue / d w = gamma eta pi_o p",
    "cases": 1584,
-   "failures": 0
+   "failures": 0,
+   "path_cases": 616,
+   "path_failures": 0
   },
   "P9": {
    "identity": "dU - dS = (c-p) + y (p(1-alpha) - c rho)",
@@ -79,15 +89,20 @@
   "P10": {
    "EIP-2930 address": "24/25",
    "EIP-2930 key": "19/20",
+   "EIP-2930 key first written": "19/21",
    "EIP-8038 address": "1",
    "EIP-8038 key": "1",
    "EIP-8038+7981 address": "209/145",
-   "EIP-8038+7981 key": "253/125"
+   "EIP-8038+7981 key": "253/125",
+   "EIP-8038+7981 key first written": "1012/525",
+   "EIP-2930 SELFDESTRUCT recipient (excluded)": "12/13"
   },
   "P11": {
-   "identity": "on B - on A = (1-rho) p t (gamma' pi - gamma sigma) at equal prices",
-   "cases": 720,
-   "failures": 0
+   "identity": "on B - on A = (1-rho) p t (gamma' pi - gamma sigma) + gamma_k k at equal prices",
+   "cases": 2160,
+   "failures": 0,
+   "kink_cases": 373,
+   "kink_failures": 0
   },
   "P12": {
    "matching": "b0 = r, b1 = k",
@@ -100,17 +115,19 @@
    "unpaid_cases": 21375,
    "unpaid_failures": 0,
    "trade_cases": 18897,
-   "trade_failures": 0
+   "trade_failures": 0,
+   "menu_threshold_cases": 3843,
+   "menu_threshold_failures": 0
   },
   "P14": {
-   "identities": "rank - last; firm - soft last",
-   "racer_cases": 324,
-   "racer_failures": 0
+   "identities": "rank - last; firm - soft last with V = v({o}) - pi p t - v(empty)",
+   "direct_cases": 2688,
+   "direct_failures": 0
   },
   "P15": {
    "route_identity": "on B - on A = gamma_u a0 + gamma_k k - gamma sigma (1 - rho) p t",
-   "cases": 60000,
-   "rules_with_all_goals": 21,
+   "cases": 120000,
+   "rules_with_all_goals": 28,
    "failures": 0
   },
   "P16": {
@@ -124,14 +141,20 @@
    "read_failures": 0
   },
   "P17": {
-   "hold_cases": 162,
+   "hold_cases": 243,
    "hold_failures": 0,
    "party_cases": 26991,
    "party_failures": 0,
    "class_cases": 2999,
    "class_failures": 0,
-   "rank_cases": 4032,
+   "rank_cases": 12096,
    "rank_failures": 0
+  },
+  "P18": {
+   "positive_cases": 548,
+   "positive_failures": 0,
+   "stationary": "13/10",
+   "cycle": "1 -> 3/2 -> 1 at eta = 1/2"
   }
  }
 }

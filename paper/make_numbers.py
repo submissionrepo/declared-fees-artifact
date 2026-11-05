@@ -661,7 +661,7 @@ put('monadConcTx', thousands(MONADCONC['n_tx']))
 put('monadConcLists', str(MONADCONC['n_list_txs']))
 
 # ------------------------------------------------------------------ access-list thresholds (posted gas schedules)
-for name, decl, cold, warm in (('Addr', 2400, 2600, 100), ('Key', 1900, 2100, 100)):
+for name, decl, cold, warm in (('Addr', 2400, 2600, 100), ('Key', 1900, 2100, 100), ('KeyWrite', 1900, 2100, 0)):
     put(f'listThreshold{name}', f'{float(Fr(decl, cold - warm)):.2f}')
 
 # ------------------------------------------------------------------ prototype

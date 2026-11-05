@@ -2281,5 +2281,6 @@
  "monadConcLists": "726",
  "listThresholdAddr": "0.96",
  "listThresholdKey": "0.95",
+ "listThresholdKeyWrite": "0.90",
  "nTests": "39"
 }
