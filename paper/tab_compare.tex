@@ -1,18 +1,18 @@
 \begin{table*}[t]
 \centering
-\caption{Rules against the goals of Definition~\ref{def:goals}.}
+\caption{Rules against the goals of Section~\ref{sec:model}.}
 \label{tab:compare}
 \footnotesize
 \setlength{\tabcolsep}{4pt}
 \begin{tabular}{@{}lccccll@{}}
 \toprule
-Rule & \begin{tabular}{@{}c@{}}Drop\\floor\end{tabular} & \begin{tabular}{@{}c@{}}Efficient\\placement\end{tabular} & \begin{tabular}{@{}c@{}}Cost\\matching\end{tabular} & \begin{tabular}{@{}c@{}}Occupancy\\at cost\end{tabular} & \begin{tabular}{@{}l@{}}Ordering\\neutrality\end{tabular} & \begin{tabular}{@{}l@{}}Shill resistance\end{tabular} \\
+Rule & \begin{tabular}{@{}c@{}}Lowest $q$\\declared\end{tabular} & \begin{tabular}{@{}c@{}}Cheaper\\class\end{tabular} & \begin{tabular}{@{}c@{}}Cost\\matching\end{tabular} & \begin{tabular}{@{}c@{}}Unused\\pays cost\end{tabular} & \begin{tabular}{@{}l@{}}Ordering\\neutrality\end{tabular} & \begin{tabular}{@{}l@{}}Shill resistance\end{tabular} \\
 \midrule
 One class, no fee (Solana, Sui) & 0 & no & no & no & yes & no object prices \\
 One class, $f_n = \alpha p_o t$ (OW-TFM) & $\phi(f_n)$ & no & at $f_n = \cp_o$ & at $f_n = \cp_o$ & if $f_n$ is burned & $(1-\gamma)\alpha \ge \gamma\eta\pi_o\Lambda$ \\
-All soft, premium on use, charge $u_o$ & $\phi_k(u_o)$ & no & at $u_o = r_o$ & at $u_o = r_o$ & yes & $\gamma \le 1/(1+\eta\pi_o\Lambda)$, our count \\
-Menu $M$, pay what you count & \begin{tabular}{@{}c@{}}$\min\{\phi(\cp_o),$\\$\phi_k(u_o)\}$\end{tabular} & at $u_o = r_o$ & at $u_o = r_o$ & \begin{tabular}{@{}c@{}}locks; soft at\\$u_o = r_o$\end{tabular} & yes & $\gamma \le 1/(1+\eta\pi_o\Lambda)$ \\
+All soft, premium on use, charge $u_o$ & $\phi_k(u_o)$ & no & at $u_o = r_o$ & at $u_o = r_o$ & yes & $\gamma \le 1/(1+\eta\pi_o\Lambda)$ \\
+Menu $M$ & \begin{tabular}{@{}c@{}}$\min\{\phi(\cp_o),$\\$\phi_k(u_o)\}$\end{tabular} & at $u_o = r_o$ & at $u_o = r_o$ & \begin{tabular}{@{}c@{}}locks; soft at\\$u_o = r_o$\end{tabular} & yes & $\gamma \le 1/(1+\eta\pi_o\Lambda)$ \\
 \bottomrule
 \end{tabular}
-\par\smallskip\parbox{\textwidth}{\scriptsize Drop floor: the lowest probability of use at which an object is declared, with $\phi(u) = u/(u + x + \bar\kappa)$ for a charge $u$ on non-use and $\phi_k$ the same with $x - k_o$ in place of $x$, for $x - k_o + \bar\kappa > 0$; by Theorem~\ref{thm:floor} no rule falls below $\phi$ of its least charge. The last column is for the setting of Theorem~\ref{thm:shill}. The rows cover writable declarations, and the last row's occupancy covers shared locks as well. Sui's dynamic fields are not declared at all (Section~\ref{sec:chains}).}
+\par\smallskip\parbox{\textwidth}{\scriptsize Lowest $q$ declared: the lowest probability of use at which an object is declared, with $\phi(u) = u/(u + x + \bar\kappa)$ for a charge $u$ on non-use and $\phi_k$ the same with $x - k_o$ in place of $x$, for $x - k_o + \bar\kappa > 0$; by the proof of Theorem~\ref{thm:floor} no rule falls below $\phi$ of its least charge. The last column is for the setting of Proposition~\ref{thm:shill}; in the last two rows prices count what is paid. The rows cover writable declarations, and in the last row the column Unused pays cost covers shared locks as well. Sui's dynamic fields are not declared at all (Section~\ref{sec:chains}).}
 \end{table*}

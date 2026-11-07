@@ -69,7 +69,7 @@ def settings():
            '\\caption{What the classes buy and what a hold does, by setting, in pairs for Samples A and B.}',
            '\\label{tab:settings}', '\\footnotesize', '\\setlength{\\tabcolsep}{2.5pt}',
            '\\begin{tabular}{@{}llllllll@{}}', '\\toprule',
-           'Setting & $r_o/\\cp_o$ & Foresight & Told & \\begin{tabular}{@{}l@{}}Foresight\\\\classes\\end{tabular} & \\begin{tabular}{@{}l@{}}From\\\\history\\end{tabular} & All soft & Hold: write; shared lock; soft; soft read (\\%) \\\\', '\\midrule']
+           'Setting & $r_o/\\cp_o$ & Foresight & Told & \\begin{tabular}{@{}l@{}}Classes\\\\from writes\\end{tabular} & Menu & All soft & Hold: write; shared lock; soft; soft read (\\%) \\\\', '\\midrule']
     for label, kind, nm in rows:
         pre = 'free' if kind == 'freeRatio' else ''
 
@@ -90,7 +90,7 @@ def settings():
                  f"{hold('Firm')}; {hold('Read')}; {hold('Soft')}; {hold('SoftRead')}"]
         out.append(' & '.join(cells) + ' \\\\')
     note = ('A producer picks its order and is replayed in free order; a validator re-executes in block order and, outside the column Told, is not told what was written. '
-            'Told: it is told, and reads are served from versions; nothing runs twice. $r_o/\\cp_o$: the cost of an unused soft declaration against an unused lock, '
+            'Told: it is told what was written, and each run reads the version its place in the block requires; nothing runs twice. $r_o/\\cp_o$: the cost of an unused soft declaration against an unused lock, '
             'with every declared account counted as read and, in parentheses, with only writes counted. Times are totals over the replayed blocks relative to every declaration firm; '
             'classes use the menu at $\\theta = 0.25$. Hold: how much longer the other transactions take with one hold of the five hot accounts in each block, under the menu, by the class it declares. '
             f"At a validator told what was written any hold adds only what its thread takes: {N['holdToldFourA']}, {N['holdToldFourB']} at 4 threads and {N['holdToldSixteenA']}, {N['holdToldSixteenB']} at 16.")
@@ -116,13 +116,13 @@ def windows():
             row('Transactions that fail (\\%)', 'ShareFailed'), row('Declarations unwritten (\\%)', 'NotWritten'),
             row('Hot lock time, writers (\\%)', 'HotWritten'), row('Hot lock time, failed (\\%)', 'HotFailed'),
             row('\\quad sender writes it elsewhere (\\%)', 'HotWonHere'),
-            row('Classes, producer, 16 threads (\\%)', 'FreeCutSixteen'), row('Classes, producer, 4 threads (\\%)', 'FreeCutFour'),
-            row('Classes, validator, 16 threads (\\%)', 'BlockCutSixteen'), row('Classes, validator, 4 threads (\\%)', 'BlockCutFour'),
+            row('Menu, producer, 16 threads (\\%)', 'FreeCutSixteen'), row('Menu, producer, 4 threads (\\%)', 'FreeCutFour'),
+            row('Menu, validator, 16 threads (\\%)', 'BlockCutSixteen'), row('Menu, validator, 4 threads (\\%)', 'BlockCutFour'),
             row('Foresight, validator, 16 threads (\\%)', 'BlockOracleSixteen'),
             row('Told, validator, 16 threads (\\%)', 'ToldSixteen'), row('Told, validator, 4 threads (\\%)', 'ToldFour'),
             row('$r_o/\\cp_o$, producer, 16 threads', 'FreeROverCSixteen', 2), row('$r_o/\\cp_o$, validator, writes only', 'BlockROverCWrites', 2),
             row('$r_o/\\cp_o$, producer, 4 threads', 'FreeROverCFour', 2),
-            row('Slowest block, all firm (\\%)', 'FirmMax'), row('Slowest block, classes (\\%)', 'MenuMax'), row('Slowest block, told (\\%)', 'ToldMax'),
+            row('Slowest block, all firm (\\%)', 'FirmMax'), row('Slowest block, menu (\\%)', 'MenuMax'), row('Slowest block, told (\\%)', 'ToldMax'),
             row('Hold, write lock, producer (\\%)', 'HoldFreeFirmSixteen'), row('Hold, soft, producer (\\%)', 'HoldFreeSoftSixteen', 1),
             row('Hold, soft, producer, 4 threads (\\%)', 'HoldFreeSoftFour'),
             row('Hold, told validator (\\%)', 'HoldToldSixteen', 1),
@@ -132,7 +132,7 @@ def windows():
             row('Fees for none unpaid, one class (\\%)', 'FrOne'), row('Fees for none unpaid, two classes (\\%)', 'FrTwo'),
             row('Tips over what is paid (\\%)', 'TipShare', 1), row('Hot pairs at a tenth of the budget (\\%)', 'ClassUseAtTenth', 1)]
     out = ['\\begin{table}[t]', '\\centering',
-           f"\\caption{{Whole minutes of consecutive blocks: median (range) over the {N['nPeak']} busiest and the {N['nMedian']} at the median. Savings are against all firm. The slowest block is a share of the budget at a validator at 16 threads. Hold at 16 threads unless stated; its bill at the bids around it is the median over blocks. Tips: minutes recorded with them; at the median the top of the range is one transfer of 3.4 SOL. Top 100: their share of what foresight classes save. Fees: lost to leave nothing unpaid. Hot pairs: counted use under classes.}}", '\\label{tab:windows}',
+           f"\\caption{{Whole minutes of consecutive blocks: median (range) over the {N['nPeak']} busiest and the {N['nMedian']} at the median. Savings are against all firm. The slowest block is a share of the budget at a validator at 16 threads. Hold at 16 threads unless stated; its bill at the bids around it is the median over blocks. Tips: minutes recorded with them; at the median the top of the range is one transfer of 3.4 SOL. Top 100: their share of what classes from writes save. Fees: lost to leave nothing unpaid. Hot pairs: counted use under the menu.}}", '\\label{tab:windows}',
            '\\scriptsize', '\\setlength{\\tabcolsep}{2pt}', '\\begin{tabular}{@{}lll@{}}', '\\toprule', ' & Busiest & Median \\\\', '\\midrule'] + rows + \
           ['\\bottomrule', '\\end{tabular}', '\\end{table}']
     (HERE / 'tab_windows.tex').write_text('\n'.join(out) + '\n', encoding='utf-8')

@@ -31,6 +31,152 @@ S.~Wadhwa, A.~Yaish, F.~Zhang, and K.~Nayak, ``Perils of parallelism:
   \url{https://www.usenix.org/conference/usenixsecurity26/presentation/wadhwa}
 \BIBentrySTDinterwordspacing
 
+\bibitem{garimidi2023solana}
+P.~Garimidi, ``{Solana} transaction fee mechanisms,'' Note,
+  \url{https://raw.githubusercontent.com/pgarimidi/Solana-Scheduler/d986990555d5531b15f2f693d06b59053efafae1/Solana_TFMs.pdf},
+  Aug. 2023.
+
+\bibitem{acilan2025transaction}
+B.~Acilan, A.~Constantinescu, L.~Heimbach, and R.~Wattenhofer, ``Transaction
+  fee market design for parallel execution,'' in \emph{7th Conference on
+  Advances in Financial Technologies (AFT 2025)}, ser. LIPIcs, vol. 354.\hskip
+  1em plus 0.5em minus 0.4em\relax Dagstuhl, Germany: Schloss Dagstuhl --
+  Leibniz-Zentrum f{\"u}r Informatik, 2025, pp. 23:1--23:25.
+
+\bibitem{pugatsov2026execution}
+A.~Pugatsov, C.~U. Ileri, and J.~Decouchant, ``The execution dilemma in
+  pessimistic blockchains: Profitability {XOR} fair ordering,'' in \emph{8th
+  Conference on Advances in Financial Technologies (AFT 2026)}, ser. LIPIcs,
+  vol. 395.\hskip 1em plus 0.5em minus 0.4em\relax Dagstuhl, Germany: Schloss
+  Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik, 2026, pp. 27:1--27:26.
+
+\bibitem{simd0110}
+A.~Yakovenko and T.~Zhu, ``{SIMD-0110}: Exponential fee for write lock
+  accounts,'' Solana Improvement Documents,
+  \url{https://github.com/solana-foundation/solana-improvement-documents/blob/22420395ca62a3e6041e77665e457b4a658b1323/proposals/0110-exponential-fee-for-write-lock-accounts.md},
+  2024, draft; pull request \#110 closed without merging.
+
+\bibitem{simd0061}
+R.~Onodera, ``{SIMD-0061}: Fair congestion control with intra-block exponential
+  local base fee,'' Solana Improvement Documents,
+  \url{https://github.com/solana-foundation/solana-improvement-documents/blob/7d6843d044fc835d602df3a4be5d1dc9ec145212/proposals/0061-fair-congestion-control.md},
+  2023, draft; pull request \#61 closed without merging.
+
+\bibitem{eclipse2024solana}
+{Eclipse Labs}, ``{Solana} \& {Ethereum} transaction fee mechanisms: Proposals
+  to improve {Solana's} {TFM},''
+  \url{https://mirror.xyz/eclipselabs.eth/GTrrYpmxSY1ubQ0SEV5akF7EZXgA2XFr7FEjM3CUuaE},
+  Feb. 2024.
+
+\bibitem{simd0553}
+{cavey}, ``{SIMD-0553}: Base inclusion and resource-based fee,'' Solana
+  Improvement Documents,
+  \url{https://github.com/solana-foundation/solana-improvement-documents/blob/2e6243a5010255ed5b1592f42ebfc890a2c21d05/proposals/0553-resource-fee-burn.md},
+  2026.
+
+\bibitem{sgp0003}
+------, ``{SGP-0003}: Resource and inclusion fee,'' Solana Governance
+  Proposals,
+  \url{https://github.com/solana-foundation/solana-governance-proposals/blob/adb22a2a8181791e160ad66ecbbe93594070a231/proposals/sgp-0003-resource-and-inclusion-fee.md},
+  2026.
+
+\bibitem{wei2026chubby}
+J.~Wei, X.~Qi, Q.~Que, Z.~Zhang, Y.~Yang, and C.~Jin, ``Chubby: Robust smart
+  contract execution against dependency over-declaration,'' in \emph{2026 IEEE
+  42nd International Conference on Data Engineering (ICDE)}, 2026, pp.
+  1547--1560.
+
+\bibitem{wang2016mostly}
+T.~Wang and H.~Kimura, ``Mostly-optimistic concurrency control for highly
+  contended dynamic workloads on a thousand cores,'' \emph{Proceedings of the
+  VLDB Endowment}, vol.~10, no.~2, pp. 49--60, 2016.
+
+\bibitem{kiffer2024nakamoto}
+L.~Kiffer, J.~Neu, S.~Sridhar, A.~Zohar, and D.~Tse, ``{Nakamoto} consensus
+  under bounded processing capacity,'' in \emph{Proceedings of the 2024 on ACM
+  SIGSAC Conference on Computer and Communications Security (CCS '24)}.\hskip
+  1em plus 0.5em minus 0.4em\relax Salt Lake City, UT, USA: ACM, 2024, pp.
+  363--377.
+
+\bibitem{amoressesar2026tragedy}
+I.~Amores-Sesar, M.~A. Baig, S.~Gilbert, R.~Neiheiser, and M.~X. Yeo, ``The
+  tragedy of chain commons,'' arXiv:2602.20341v1, 2026.
+
+\bibitem{wang2026blockspace}
+W.~Wang, A.~Saraf, L.~Heimbach, K.~Babel, and F.~Zhang, ``Blockspace under
+  pressure: An analysis of spam {MEV} on high-throughput blockchains,''
+  arXiv:2604.00234v3, 2026, to appear at ACM SIGMETRICS 2027.
+
+\bibitem{diamandis2023designing}
+T.~Diamandis, A.~Evans, T.~Chitra, and G.~Angeris, ``Designing multidimensional
+  blockchain fee markets,'' in \emph{5th Conference on Advances in Financial
+  Technologies (AFT 2023)}, ser. LIPIcs, vol. 282.\hskip 1em plus 0.5em minus
+  0.4em\relax Dagstuhl, Germany: Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r
+  Informatik, 2023, pp. 4:1--4:23.
+
+\bibitem{natale2026resource}
+U.~Natale, ``Resource and inclusion fee: Digging into data,'' Solana
+  Foundation,
+  \url{https://solana.com/news/resource-and-inclusion-fee-digging-into-data},
+  Aug. 2026.
+
+\bibitem{heimbach2026setting}
+L.~Heimbach, ``Setting your gas limit on {Monad},'' Category Labs,
+  \url{https://www.category.xyz/blogs/setting-your-gas-limit-on-monad}, Feb.
+  2026.
+
+\bibitem{heimbach2025dissecting}
+L.~Heimbach, Q.~Kniep, Y.~Vonlanthen, R.~Wattenhofer, and P.~Z{\"u}st,
+  ``Dissecting the {EIP-2930} optional access lists,'' in \emph{Financial
+  Cryptography and Data Security: 28th International Conference, FC 2024,
+  Willemstad, Cura{\c{c}}ao, March 4--8, 2024, Revised Selected Papers, Part
+  I}, ser. Lecture Notes in Computer Science, vol. 14744.\hskip 1em plus 0.5em
+  minus 0.4em\relax Cham: Springer, 2025, pp. 292--302.
+
+\bibitem{heimbach2026evm}
+L.~Heimbach, K.~Babel, and J.~Milionis, ``{EVM} workloads in the wild: Evidence
+  for multi-dimensional gas metering, state growth, delayed execution, and
+  parallelism,'' in \emph{8th Conference on Advances in Financial Technologies
+  (AFT 2026)}, ser. LIPIcs, vol. 395.\hskip 1em plus 0.5em minus 0.4em\relax
+  Dagstuhl, Germany: Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik,
+  2026, pp. 34:1--34:24.
+
+\bibitem{hay2026analyzing}
+Y.~Hay, D.~D. Biton, and R.~Friedman, ``Analyzing {Solana's} blocks and
+  transactions,'' arXiv:2609.35171v1, 2026, to appear in the 28th International
+  Symposium on Stabilization, Safety, and Security of Distributed Systems (SSS
+  2026).
+
+\bibitem{anjana2025blockchain}
+P.~S. Anjana, S.~Ravi, and M.~Herlihy, ``Blockchain transaction conflicts: A
+  historical perspective,'' arXiv:2505.05358v3, 2026.
+
+\bibitem{tsoi2026not}
+H.~Tsoi, A.~Sonnino, and P.~Jovanovic, ``Not all reads are conflicts: A
+  write-only analysis of the {Sui} blockchain,'' in \emph{8th Conference on
+  Advances in Financial Technologies (AFT 2026)}, ser. LIPIcs, vol. 395.\hskip
+  1em plus 0.5em minus 0.4em\relax Dagstuhl, Germany: Schloss Dagstuhl --
+  Leibniz-Zentrum f{\"u}r Informatik, 2026, pp. 10:1--10:20.
+
+\bibitem{courty2000sequential}
+P.~Courty and H.~Li, ``Sequential screening,'' \emph{The Review of Economic
+  Studies}, vol.~67, no.~4, pp. 697--717, 2000.
+
+\bibitem{porter2008fault}
+R.~Porter, A.~Ronen, Y.~Shoham, and M.~Tennenholtz, ``Fault tolerant mechanism
+  design,'' \emph{Artificial Intelligence}, vol. 172, no.~15, pp. 1783--1799,
+  2008.
+
+\bibitem{ma2019contingent}
+\BIBentryALTinterwordspacing
+H.~Ma, R.~Meir, D.~C. Parkes, and J.~Zou, ``Contingent payment mechanisms for
+  resource utilization,'' in \emph{Proceedings of the 18th International
+  Conference on Autonomous Agents and Multiagent Systems (AAMAS 2019)}.\hskip
+  1em plus 0.5em minus 0.4em\relax Montreal, Canada: IFAAMAS, 2019, pp.
+  422--430. [Online]. Available:
+  \url{https://www.ifaamas.org/Proceedings/aamas2019/pdfs/p422.pdf}
+\BIBentrySTDinterwordspacing
+
 \bibitem{agave}
 {Anza}, ``{Agave} validator,''
   \url{https://github.com/anza-xyz/agave/tree/dd4c9ac8b050d881de5640b38cecfffb1c516942},
@@ -190,157 +336,5 @@ T.~Zhu, ``{SIMD-0096}: Reward full priority fee to validator,'' Solana
   Improvement Documents,
   \url{https://github.com/solana-foundation/solana-improvement-documents/blob/6cc17538e26601e65beca89bbfa761e755720956/proposals/0096-reward-collected-priority-fee-in-entirety.md},
   2023.
-
-\bibitem{garimidi2023solana}
-P.~Garimidi, ``{Solana} transaction fee mechanisms,'' Note,
-  \url{https://raw.githubusercontent.com/pgarimidi/Solana-Scheduler/d986990555d5531b15f2f693d06b59053efafae1/Solana_TFMs.pdf},
-  Aug. 2023.
-
-\bibitem{acilan2025transaction}
-B.~Acilan, A.~Constantinescu, L.~Heimbach, and R.~Wattenhofer, ``Transaction
-  fee market design for parallel execution,'' in \emph{7th Conference on
-  Advances in Financial Technologies (AFT 2025)}, ser. LIPIcs, vol. 354.\hskip
-  1em plus 0.5em minus 0.4em\relax Dagstuhl, Germany: Schloss Dagstuhl --
-  Leibniz-Zentrum f{\"u}r Informatik, 2025, pp. 23:1--23:25.
-
-\bibitem{pugatsov2026execution}
-A.~Pugatsov, C.~U. Ileri, and J.~Decouchant, ``The execution dilemma in
-  pessimistic blockchains: Profitability {XOR} fair ordering,'' in \emph{8th
-  Conference on Advances in Financial Technologies (AFT 2026)}, ser. LIPIcs,
-  vol. 395.\hskip 1em plus 0.5em minus 0.4em\relax Dagstuhl, Germany: Schloss
-  Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik, 2026, pp. 27:1--27:26.
-
-\bibitem{simd0110}
-A.~Yakovenko and T.~Zhu, ``{SIMD-0110}: Exponential fee for write lock
-  accounts,'' Solana Improvement Documents,
-  \url{https://github.com/solana-foundation/solana-improvement-documents/blob/22420395ca62a3e6041e77665e457b4a658b1323/proposals/0110-exponential-fee-for-write-lock-accounts.md},
-  2024, draft; pull request \#110 closed without merging.
-
-\bibitem{simd0061}
-R.~Onodera, ``{SIMD-0061}: Fair congestion control with intra-block exponential
-  local base fee,'' Solana Improvement Documents,
-  \url{https://github.com/solana-foundation/solana-improvement-documents/blob/7d6843d044fc835d602df3a4be5d1dc9ec145212/proposals/0061-fair-congestion-control.md},
-  2023, draft; pull request \#61 closed without merging.
-
-\bibitem{eclipse2024solana}
-{Eclipse Labs}, ``{Solana} \& {Ethereum} transaction fee mechanisms: Proposals
-  to improve {Solana's} {TFM},''
-  \url{https://mirror.xyz/eclipselabs.eth/GTrrYpmxSY1ubQ0SEV5akF7EZXgA2XFr7FEjM3CUuaE},
-  Feb. 2024.
-
-\bibitem{simd0553}
-{cavey}, ``{SIMD-0553}: Base inclusion and resource-based fee,'' Solana
-  Improvement Documents,
-  \url{https://github.com/solana-foundation/solana-improvement-documents/blob/2e6243a5010255ed5b1592f42ebfc890a2c21d05/proposals/0553-resource-fee-burn.md},
-  2026.
-
-\bibitem{sgp0003}
-------, ``{SGP-0003}: Resource and inclusion fee,'' Solana Governance
-  Proposals,
-  \url{https://github.com/solana-foundation/solana-governance-proposals/blob/adb22a2a8181791e160ad66ecbbe93594070a231/proposals/sgp-0003-resource-and-inclusion-fee.md},
-  2026.
-
-\bibitem{wei2026chubby}
-J.~Wei, X.~Qi, Q.~Que, Z.~Zhang, Y.~Yang, and C.~Jin, ``Chubby: Robust smart
-  contract execution against dependency over-declaration,'' in \emph{2026 IEEE
-  42nd International Conference on Data Engineering (ICDE)}, 2026, pp.
-  1547--1560.
-
-\bibitem{wang2016mostly}
-T.~Wang and H.~Kimura, ``Mostly-optimistic concurrency control for highly
-  contended dynamic workloads on a thousand cores,'' \emph{Proceedings of the
-  VLDB Endowment}, vol.~10, no.~2, pp. 49--60, 2016.
-
-\bibitem{kiffer2024nakamoto}
-L.~Kiffer, J.~Neu, S.~Sridhar, A.~Zohar, and D.~Tse, ``{Nakamoto} consensus
-  under bounded processing capacity,'' in \emph{Proceedings of the 2024 on ACM
-  SIGSAC Conference on Computer and Communications Security (CCS '24)}.\hskip
-  1em plus 0.5em minus 0.4em\relax Salt Lake City, UT, USA: ACM, 2024, pp.
-  363--377.
-
-\bibitem{amoressesar2026tragedy}
-I.~Amores-Sesar, M.~A. Baig, S.~Gilbert, R.~Neiheiser, and M.~X. Yeo, ``The
-  tragedy of chain commons,'' arXiv:2602.20341v1, 2026.
-
-\bibitem{wang2026blockspace}
-W.~Wang, A.~Saraf, L.~Heimbach, K.~Babel, and F.~Zhang, ``Blockspace under
-  pressure: An analysis of spam {MEV} on high-throughput blockchains,''
-  arXiv:2604.00234v3, 2026, to appear at ACM SIGMETRICS 2027.
-
-\bibitem{diamandis2023designing}
-T.~Diamandis, A.~Evans, T.~Chitra, and G.~Angeris, ``Designing multidimensional
-  blockchain fee markets,'' in \emph{5th Conference on Advances in Financial
-  Technologies (AFT 2023)}, ser. LIPIcs, vol. 282.\hskip 1em plus 0.5em minus
-  0.4em\relax Dagstuhl, Germany: Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r
-  Informatik, 2023, pp. 4:1--4:23.
-
-\bibitem{natale2026resource}
-U.~Natale, ``Resource and inclusion fee: Digging into data,'' Solana
-  Foundation,
-  \url{https://solana.com/news/resource-and-inclusion-fee-digging-into-data},
-  Aug. 2026.
-
-\bibitem{heimbach2026setting}
-L.~Heimbach, ``Setting your gas limit on {Monad},'' Category Labs,
-  \url{https://www.category.xyz/blogs/setting-your-gas-limit-on-monad}, Feb.
-  2026.
-
-\bibitem{heimbach2025dissecting}
-L.~Heimbach, Q.~Kniep, Y.~Vonlanthen, R.~Wattenhofer, and P.~Z{\"u}st,
-  ``Dissecting the {EIP-2930} optional access lists,'' in \emph{Financial
-  Cryptography and Data Security: 28th International Conference, FC 2024,
-  Willemstad, Cura{\c{c}}ao, March 4--8, 2024, Revised Selected Papers, Part
-  I}, ser. Lecture Notes in Computer Science, vol. 14744.\hskip 1em plus 0.5em
-  minus 0.4em\relax Cham: Springer, 2025, pp. 292--302.
-
-\bibitem{heimbach2026evm}
-L.~Heimbach, K.~Babel, and J.~Milionis, ``{EVM} workloads in the wild: Evidence
-  for multi-dimensional gas metering, state growth, delayed execution, and
-  parallelism,'' in \emph{8th Conference on Advances in Financial Technologies
-  (AFT 2026)}, ser. LIPIcs, vol. 395.\hskip 1em plus 0.5em minus 0.4em\relax
-  Dagstuhl, Germany: Schloss Dagstuhl -- Leibniz-Zentrum f{\"u}r Informatik,
-  2026, pp. 34:1--34:24.
-
-\bibitem{hay2026analyzing}
-Y.~Hay, D.~D. Biton, and R.~Friedman, ``Analyzing {Solana's} blocks and
-  transactions,'' arXiv:2609.35171v1, 2026, to appear in the 28th International
-  Symposium on Stabilization, Safety, and Security of Distributed Systems (SSS
-  2026).
-
-\bibitem{anjana2025blockchain}
-P.~S. Anjana, S.~Ravi, and M.~Herlihy, ``Blockchain transaction conflicts: A
-  historical perspective,'' arXiv:2505.05358v3, 2026.
-
-\bibitem{tsoi2026not}
-H.~Tsoi, A.~Sonnino, and P.~Jovanovic, ``Not all reads are conflicts: A
-  write-only analysis of the {Sui} blockchain,'' in \emph{8th Conference on
-  Advances in Financial Technologies (AFT 2026)}, ser. LIPIcs, vol. 395.\hskip
-  1em plus 0.5em minus 0.4em\relax Dagstuhl, Germany: Schloss Dagstuhl --
-  Leibniz-Zentrum f{\"u}r Informatik, 2026, pp. 10:1--10:20.
-
-\bibitem{courty2000sequential}
-P.~Courty and H.~Li, ``Sequential screening,'' \emph{The Review of Economic
-  Studies}, vol.~67, no.~4, pp. 697--717, 2000.
-
-\bibitem{porter2008fault}
-R.~Porter, A.~Ronen, Y.~Shoham, and M.~Tennenholtz, ``Fault tolerant mechanism
-  design,'' \emph{Artificial Intelligence}, vol. 172, no.~15, pp. 1783--1799,
-  2008.
-
-\bibitem{ma2019contingent}
-\BIBentryALTinterwordspacing
-H.~Ma, R.~Meir, D.~C. Parkes, and J.~Zou, ``Contingent payment mechanisms for
-  resource utilization,'' in \emph{Proceedings of the 18th International
-  Conference on Autonomous Agents and Multiagent Systems (AAMAS 2019)}.\hskip
-  1em plus 0.5em minus 0.4em\relax Montreal, Canada: IFAAMAS, 2019, pp.
-  422--430. [Online]. Available:
-  \url{https://www.ifaamas.org/Proceedings/aamas2019/pdfs/p422.pdf}
-\BIBentrySTDinterwordspacing
-
-\bibitem{base6229}
-{fahimahmedx}, ``Gas limit pricing proof of concept for fair ordering,'' Draft
-  pull request 6229, base/base; design document
-  \url{https://github.com/base/base/blob/5843a080c32e2e28345aadacd74f7a1e16ab2854/docs/guides/GAS_LIMIT_PRICING.md},
-  Oct. 2026.
 
 \end{thebibliography}

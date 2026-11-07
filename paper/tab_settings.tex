@@ -6,7 +6,7 @@
 \setlength{\tabcolsep}{2.5pt}
 \begin{tabular}{@{}llllllll@{}}
 \toprule
-Setting & $r_o/\cp_o$ & Foresight & Told & \begin{tabular}{@{}l@{}}Foresight\\classes\end{tabular} & \begin{tabular}{@{}l@{}}From\\history\end{tabular} & All soft & Hold: write; shared lock; soft; soft read (\%) \\
+Setting & $r_o/\cp_o$ & Foresight & Told & \begin{tabular}{@{}l@{}}Classes\\from writes\end{tabular} & Menu & All soft & Hold: write; shared lock; soft; soft read (\%) \\
 \midrule
 Producer, 4 threads & 0.59, 0.61 (0.00, 0.00) & 0.90, 0.93 &  & 0.96, 0.97 & 0.96, 0.98 & 1.07, 1.09 & 7.3, 14; 6.3, 14; 22, 19; 22, 19 \\
 Producer, 16 threads & 0.10, 0.07 (0.00, 0.00) & 0.71, 0.78 &  & 0.74, 0.80 & 0.78, 0.86 & 0.86, 0.91 & 19, 40; 16, 40; 1.6, 0.8; 1.6, 0.8 \\
@@ -14,5 +14,5 @@ Validator, 4 threads & 0.22, 0.18 (0.13, 0.11) & 0.86, 0.87 & 0.80, 0.82 & 0.89,
 Validator, 16 threads & 0.07, 0.06 (0.27, 0.20) & 0.77, 0.78 & 0.55, 0.61 & 0.78, 0.80 & 0.83, 0.86 & 0.83, 0.85 & 25, 41; 24, 41; 23, 38; 0.2, 0.1 \\
 \bottomrule
 \end{tabular}
-\par\smallskip\parbox{\textwidth}{\scriptsize A producer picks its order and is replayed in free order; a validator re-executes in block order and, outside the column Told, is not told what was written. Told: it is told, and reads are served from versions; nothing runs twice. $r_o/\cp_o$: the cost of an unused soft declaration against an unused lock, with every declared account counted as read and, in parentheses, with only writes counted. Times are totals over the replayed blocks relative to every declaration firm; classes use the menu at $\theta = 0.25$. Hold: how much longer the other transactions take with one hold of the five hot accounts in each block, under the menu, by the class it declares. At a validator told what was written any hold adds only what its thread takes: 7.0, 12 at 4 threads and 0.2, 0.2 at 16.}
+\par\smallskip\parbox{\textwidth}{\scriptsize A producer picks its order and is replayed in free order; a validator re-executes in block order and, outside the column Told, is not told what was written. Told: it is told what was written, and each run reads the version its place in the block requires; nothing runs twice. $r_o/\cp_o$: the cost of an unused soft declaration against an unused lock, with every declared account counted as read and, in parentheses, with only writes counted. Times are totals over the replayed blocks relative to every declaration firm; classes use the menu at $\theta = 0.25$. Hold: how much longer the other transactions take with one hold of the five hot accounts in each block, under the menu, by the class it declares. At a validator told what was written any hold adds only what its thread takes: 7.0, 12 at 4 threads and 0.2, 0.2 at 16.}
 \end{table*}
